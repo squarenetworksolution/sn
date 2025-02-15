@@ -10,6 +10,7 @@ import { About } from "./components/Pages/About";
 import { Blog } from "./components/Pages/Blog";
 import { Contact } from "./components/Pages/Contact";
 import Product from "./components/Pages/Product";
+import { useEffect } from "react";
 
 
 
@@ -23,6 +24,11 @@ import Product from "./components/Pages/Product";
 // import Product, { Animation } from "./components/Pages/Animation"
 
 function App() {
+  
+  // useEffect(() => {
+  //   window.location.href = "https://github.com/squarenetworksolution/sn";
+  // }, []);
+  
 
   return (
     <>
