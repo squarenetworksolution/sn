@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/%7Bsn%7D/static/css/main.43b6df9f.css",
+    "main.js": "/%7Bsn%7D/static/js/main.8a022e4a.js",
+    "static/media/chassis.png": "/%7Bsn%7D/static/media/chassis.92f5c459fd1a65c7453c.png",
+    "static/media/slide3.png": "/%7Bsn%7D/static/media/slide3.016fc7e4769a4ae2cbba.png",
+    "static/media/slide2.png": "/%7Bsn%7D/static/media/slide2.679dbe5daf9095155b0b.png",
+    "static/media/world_map.svg": "/%7Bsn%7D/static/media/world_map.e1cdb436d43f0cb07a6d.svg",
+    "static/media/slide1.png": "/%7Bsn%7D/static/media/slide1.ad1ef690fa4c11a2238b.png",
+    "static/media/cable_bg.png": "/%7Bsn%7D/static/media/cable_bg.8b790a5c198b95583f3e.png",
+    "static/media/power_adaptor.png": "/%7Bsn%7D/static/media/power_adaptor.f1465faf8e2dc48537ef.png",
+    "static/media/fantray.png": "/%7Bsn%7D/static/media/fantray.a20af09c26dc4b095809.png",
+    "static/media/ssd_qn.png": "/%7Bsn%7D/static/media/ssd_qn.f9a5bec28058d9498eff.png",
+    "static/media/wlc.png": "/%7Bsn%7D/static/media/wlc.02a4cde82e5db780822d.png",
+    "static/media/ipphone.png": "/%7Bsn%7D/static/media/ipphone.fcd8a2890ef0c6b3e086.png",
+    "static/media/red_net.png": "/%7Bsn%7D/static/media/red_net.d378a6cd3f9dcb61a800.png",
+    "static/media/wifi_squarenetwork.png": "/%7Bsn%7D/static/media/wifi_squarenetwork.537ff945e6b600b8939e.png",
+    "static/media/servers.png": "/%7Bsn%7D/static/media/servers.3777653541b27f0dd1df.png",
+    "static/media/switches_squarenetwork.png": "/%7Bsn%7D/static/media/switches_squarenetwork.857ed64ee1f3e128d70d.png",
+    "static/media/home2.jpg": "/%7Bsn%7D/static/media/home2.9f3e91b875623a5b0b47.jpg",
+    "static/media/Services_squarenetwork.jpg": "/%7Bsn%7D/static/media/Services_squarenetwork.84b415a17f4b24b99fe9.jpg",
+    "static/media/cables.png": "/%7Bsn%7D/static/media/cables.09156f5ca27915c54ee4.png",
+    "static/media/square_network_logo.png": "/%7Bsn%7D/static/media/square_network_logo.3bb10fd9d1701fc09265.png",
+    "static/media/about_head.png": "/%7Bsn%7D/static/media/about_head.b6da9ba4a383a23381c1.png",
+    "static/media/router-r.png": "/%7Bsn%7D/static/media/router-r.a9610c61fc431c39ca70.png",
+    "static/media/logo_squarenetwork.jpg": "/%7Bsn%7D/static/media/logo_squarenetwork.8ef27849e36dba54947a.jpg",
+    "static/media/gateways_squarenetwork.jpg": "/%7Bsn%7D/static/media/gateways_squarenetwork.0237e4340f76c2a8fb84.jpg",
+    "static/media/space-grotesk-latin-400-normal.woff": "/%7Bsn%7D/static/media/space-grotesk-latin-400-normal.a211e01f0870d5a33fb9.woff",
+    "static/media/space-grotesk-latin-ext-400-normal.woff": "/%7Bsn%7D/static/media/space-grotesk-latin-ext-400-normal.0684df5ac67f6e62accb.woff",
+    "static/media/space-grotesk-latin-400-normal.woff2": "/%7Bsn%7D/static/media/space-grotesk-latin-400-normal.cae74bffb55394a5ba8f.woff2",
+    "static/media/space-grotesk-latin-ext-400-normal.woff2": "/%7Bsn%7D/static/media/space-grotesk-latin-ext-400-normal.ed993877ec04456bd5df.woff2",
+    "static/media/space-grotesk-vietnamese-400-normal.woff": "/%7Bsn%7D/static/media/space-grotesk-vietnamese-400-normal.da46d90d1320c7bd6623.woff",
+    "static/media/space-grotesk-vietnamese-400-normal.woff2": "/%7Bsn%7D/static/media/space-grotesk-vietnamese-400-normal.4741b38fb53bf09be42b.woff2",
+    "index.html": "/%7Bsn%7D/index.html",
+    "main.43b6df9f.css.map": "/%7Bsn%7D/static/css/main.43b6df9f.css.map",
+    "main.8a022e4a.js.map": "/%7Bsn%7D/static/js/main.8a022e4a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.43b6df9f.css",
+    "static/js/main.8a022e4a.js"
+  ]
+}
