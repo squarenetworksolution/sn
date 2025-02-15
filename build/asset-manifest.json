@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c2e069f1.css",
-    "main.js": "/static/js/main.0b88f9a1.js",
+    "main.js": "/static/js/main.4b11d810.js",
     "static/media/chassis.png": "/static/media/chassis.92f5c459fd1a65c7453c.png",
     "static/media/slide3.png": "/static/media/slide3.016fc7e4769a4ae2cbba.png",
     "static/media/slide2.png": "/static/media/slide2.679dbe5daf9095155b0b.png",
@@ -27,19 +27,16 @@
     "static/media/gateways_squarenetwork.jpg": "/static/media/gateways_squarenetwork.0237e4340f76c2a8fb84.jpg",
     "static/media/space-grotesk-latin-400-normal.woff": "/static/media/space-grotesk-latin-400-normal.a211e01f0870d5a33fb9.woff",
     "static/media/space-grotesk-latin-ext-400-normal.woff": "/static/media/space-grotesk-latin-ext-400-normal.0684df5ac67f6e62accb.woff",
-    "static/media/Global.png": "/static/media/Global.ce873c28bbd42984cfe5.png",
     "static/media/space-grotesk-latin-400-normal.woff2": "/static/media/space-grotesk-latin-400-normal.cae74bffb55394a5ba8f.woff2",
-    "static/media/Excellence.png": "/static/media/Excellence.4e28e84509598836c388.png",
     "static/media/space-grotesk-latin-ext-400-normal.woff2": "/static/media/space-grotesk-latin-ext-400-normal.ed993877ec04456bd5df.woff2",
-    "static/media/Innovate.png": "/static/media/Innovate.4eb398af03fc041106dd.png",
     "static/media/space-grotesk-vietnamese-400-normal.woff": "/static/media/space-grotesk-vietnamese-400-normal.da46d90d1320c7bd6623.woff",
     "static/media/space-grotesk-vietnamese-400-normal.woff2": "/static/media/space-grotesk-vietnamese-400-normal.4741b38fb53bf09be42b.woff2",
     "index.html": "/index.html",
     "main.c2e069f1.css.map": "/static/css/main.c2e069f1.css.map",
-    "main.0b88f9a1.js.map": "/static/js/main.0b88f9a1.js.map"
+    "main.4b11d810.js.map": "/static/js/main.4b11d810.js.map"
   },
   "entrypoints": [
     "static/css/main.c2e069f1.css",
-    "static/js/main.0b88f9a1.js"
+    "static/js/main.4b11d810.js"
   ]
 }

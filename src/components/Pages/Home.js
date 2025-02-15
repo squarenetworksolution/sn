@@ -10,12 +10,12 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "@fontsource/space-grotesk";
 import "@fontsource/space-grotesk/400.css";
 
-import logo from "../../assets/logo_squarenetwork.jpg";
-import flash from "../../assets/flash.png";
-import innovation from "../../assets/Innovate.png";
-import excellence from "../../assets/Excellence.png";
-import global from "../../assets/Global.png";
-import brilliance from "../../assets/brilliance.png";
+// import logo from "../../assets/logo_squarenetwork.jpg";
+// import flash from "../../assets/flash.png";
+// import innovation from "../../assets/Innovate.png";
+// import excellence from "../../assets/Excellence.png";
+// import global from "../../assets/Global.png";
+// import brilliance from "../../assets/brilliance.png";
 import wifi from "../../assets/wifi_squarenetwork.png";
 import switches from "../../assets/switches_squarenetwork.png";
 import gateways from "../../assets/gateways_squarenetwork.jpg";

@@ -4,24 +4,6 @@ import "./NavBar.css";
 import { CodeIcon, HamburgetMenuClose, HamburgetMenuOpen } from "./Icons";
 import logo from "../assets/square_network_logo.png";
 import mobile_logo from "../assets/logo_squarenetwork.jpg";
-import {
-  CButton,
-  CCollapse,
-  CContainer,
-  CDropdown,
-  CDropdownDivider,
-  CDropdownItem,
-  CDropdownMenu,
-  CDropdownToggle,
-  CForm,
-  CFormInput,
-  CNavbar,
-  CNavbarBrand,
-  CNavbarNav,
-  CNavbarToggler,
-  CNavItem,
-  CNavLink,
-} from '@coreui/react'
 
 function NavBar() {
   const [click, setClick] = useState(false);
