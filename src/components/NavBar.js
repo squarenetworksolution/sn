@@ -4,6 +4,24 @@ import "./NavBar.css";
 import { CodeIcon, HamburgetMenuClose, HamburgetMenuOpen } from "./Icons";
 import logo from "../assets/square_network_logo.png";
 import mobile_logo from "../assets/logo_squarenetwork.jpg";
+import {
+  CButton,
+  CCollapse,
+  CContainer,
+  CDropdown,
+  CDropdownDivider,
+  CDropdownItem,
+  CDropdownMenu,
+  CDropdownToggle,
+  CForm,
+  CFormInput,
+  CNavbar,
+  CNavbarBrand,
+  CNavbarNav,
+  CNavbarToggler,
+  CNavItem,
+  CNavLink,
+} from '@coreui/react'
 
 function NavBar() {
   const [click, setClick] = useState(false);
@@ -57,7 +75,7 @@ function NavBar() {
             </li>
            
            
-            {/* <CDropdown variant="nav-item" popper={false}>
+            <CDropdown variant="nav-item" popper={false}>
               <CDropdownToggle color="secondary">Solutions & Services</CDropdownToggle>
               <CDropdownMenu>
 
@@ -67,8 +85,9 @@ function NavBar() {
                 <CDropdownItem href="#">IT Managed Services</CDropdownItem>
                 <CDropdownItem href="#">PC and Enterprise Solution</CDropdownItem>
                 
+
               </CDropdownMenu>
-            </CDropdown> */}
+            </CDropdown>
 
             <li className="nav-item">
               <NavLink
@@ -95,7 +114,7 @@ function NavBar() {
             <li className="nav-item">
               <NavLink
                 exact
-                to="/product"
+                to=""
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}

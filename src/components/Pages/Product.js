@@ -32,12 +32,11 @@ const Product = () => {
       $(".one").removeClass("hidden");
       $(".two").addClass("hidden");
     });
-    
     $(".option-two").click(function () {
       $(".two").removeClass("hidden");
       $(".one").addClass("hidden");
     });
-
+    
     $(".all").click(function () {
       $(".two").removeClass("hidden");
       $(".one").removeClass("hidden");
@@ -59,11 +58,9 @@ const Product = () => {
         if ($("#two").is(":checked")) {
           $(".group2").removeClass("hidden");
         }
-
         if ($("#three").is(":checked")) {
           $(".group3").removeClass("hidden");
         }
-
       } else if ($("#two").is(":checked")) {
         $(".group1").addClass("hidden");
         $(".group3").addClass("hidden");
@@ -71,7 +68,6 @@ const Product = () => {
         if ($("#three").is(":checked")) {
           $(".group3").removeClass("hidden");
         }
-
       } else if ($("#three").is(":checked")) {
         $(".group1").addClass("hidden");
         $(".group2").addClass("hidden");

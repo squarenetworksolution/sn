@@ -235,7 +235,6 @@
     flex-wrap: wrap;
     justify-content: center;
   }
-
   #products div {
     position: relative;
     background-color: white;
@@ -244,7 +243,6 @@
     margin: 10px;
     border-radius: 5px;
   }
-
   #products .group1::after {
     content: "Group 1";
     left: 80px;
@@ -252,7 +250,6 @@
     top: 130px;
     font-size: 20px;
   }
-
   #products .group2::after {
     content: "Group 2";
     left: 80px;
@@ -260,7 +257,6 @@
     top: 130px;
     font-size: 20px;
   }
-
   #products .group3::after {
     content: "Group 3";
     left: 80px;
@@ -268,7 +264,6 @@
     top: 130px;
     font-size: 20px;
   }
-
   #products div span {
     padding: 0.5em;
     display: flex;
@@ -293,7 +288,6 @@
     margin-left: 10px;
     border-radius: 100%;
   }
-  
   .hidden {
     display: none;
   }
