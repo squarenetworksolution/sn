@@ -10,12 +10,12 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "@fontsource/space-grotesk";
 import "@fontsource/space-grotesk/400.css";
 
-import logo from "../../assets/logo_squarenetwork.jpg";
-import flash from "../../assets/flash.png";
-import innovation from "../../assets/Innovate.png";
-import excellence from "../../assets/Excellence.png";
-import global from "../../assets/Global.png";
-import brilliance from "../../assets/brilliance.png";
+// import logo from "../../assets/logo_squarenetwork.jpg";
+// import flash from "../../assets/flash.png";
+// import innovation from "../../assets/Innovate.png";
+// import excellence from "../../assets/Excellence.png";
+// import global from "../../assets/Global.png";
+// import brilliance from "../../assets/brilliance.png";
 import wifi from "../../assets/wifi_squarenetwork.png";
 import switches from "../../assets/switches_squarenetwork.png";
 import gateways from "../../assets/gateways_squarenetwork.jpg";
@@ -30,15 +30,12 @@ import ipphone from "../../assets/ipphone.png";
 import fantray from "../../assets/fantray.png";
 import poweradaptor from "../../assets/power_adaptor.png";
 
-import home from "../../assets/home2.jpg";
+// import home from "../../assets/home2.jpg";
 import $ from 'jquery';
 
 
 import {
-  CarouselControl,
-  Carousel,
-  CarouselItem,
-  CarouselIndicators, UncontrolledCarousel
+   UncontrolledCarousel
 } from 'reactstrap';
 
 export const Home = () => {
@@ -97,8 +94,10 @@ export const Home = () => {
 
   // Start the auto-slide interval
   useEffect(() => {
-    const autoSlide = setInterval(nextSlide, 10000); // 7 seconds delay for each slide
-    return () => clearInterval(autoSlide); // Cleanup on component unmount
+    const autoSlide = setInterval(nextSlide, 10000); 
+    var slide = setInterval(prevSlide, 10000); // 7 seconds delay for each slide
+    // 7 seconds delay for each slide
+    return () => clearInterval(autoSlide,slide); // Cleanup on component unmount
   }, []);
 
   
@@ -370,9 +369,10 @@ export const Home = () => {
               With the experience of handling more than 3800 clients across Tamil Nadu, the Square Network team is adept with the latest technology and has a thorough understanding of customer requirements to provide a world of IT hardware services, solutions and support across different industry verticals.
             </p>
 
-            <a className="btnn" href="">
+            <a className="btnn" to="">
               Become a Client
             </a>
+
           </div>
 
           <div className="col-md-6 text-center ">
