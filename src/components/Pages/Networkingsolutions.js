@@ -12,7 +12,9 @@ import iot from "../../assets/iot.png";
 import firewall from "../../assets/firewall.png";
 import ad from "../../assets/ad.png";
 import cable from "../../assets/cables.png";
+
 const Networkingsolutions = () => {
+
   return (
         <Fragment>
              <section className="cyber-security-section cyber-security-section2 overflow-hidden">
