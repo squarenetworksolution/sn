@@ -15,6 +15,7 @@ border-radius: 25px;
     font-size: 45px;
     font-weight: 600;
     margin-bottom: 40px;
+    color: #c12329;
 }
 
 .abt_our_each{
@@ -41,4 +42,9 @@ transform: scale(1.1);
     margin-bottom: 15px;
     width: 80px;
     height: 80px;
+}
+
+
+.abt_bann p{
+    font-size: 18px;
 }

@@ -11,16 +11,21 @@ export const About = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-6" >
-              <div>
+              <div className="abt_bann">
                 <h3 className="abt_head">
-                  We are Square Networks, a Zen Exim Brand
+                  We are Square Networks
                 </h3>
 
                 <p>
-                  Wired & Wireless Networks
-                  Any Vertical, Any Location, Any Deployment
-                   We deliver what our customers need, not just what they request
-
+                  Square Network Solutions, established 25 years ago, has emerged as a leading
+                  provider of data center, networking, and cybersecurity services. With extensive
+                  experience in the IT sector, our company has successfully partnered with major IT
+                  firms and executed numerous projects for the Tamil Nadu government. Our presence
+                  spans six states in South India, with over six branches strategically located to serve our
+                  clients better. Boasting an impressive annual turnover of 1.87 billion, we are recognized
+                  for our excellence with five Best Seller awards from prominent brands. Our global
+                  reach and partnerships with many international brands highlight our commitment to
+                  delivering top-notch IT services and solutions.
                 </p>
               </div>
             </div>
@@ -32,11 +37,7 @@ export const About = () => {
         </div>
       </section>
 
-      <section className="container">
-        <p>
-          At Square Networks, we are dedicated to reinventing networks, revolutionizing the way businesses and individuals connect and communicate in the digital era. With our cutting-edge technologies and unparalleled expertise, we offer a comprehensive range of network solutions that empower our clients to thrive in an increasingly interconnected world. We take pride in understanding our customers' true needs, going beyond mere requests. Our approach revolves around delivering personalized solutions that perfectly align with your business goals.
-        </p>
-      </section>
+
 
       <section className="our_sec container">
 
@@ -94,10 +95,10 @@ export const About = () => {
       <section>
         <div className="text-center">
           <h3>
-          Why Quantum Networks?
+            Why Quantum Networks?
           </h3>
 
-          
+
         </div>
       </section>
 

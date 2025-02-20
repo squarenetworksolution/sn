@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { Fragment } from "react";
 
 import "../css/slide.css"
+
 import "../Pages/Animation.js"
 import { useState } from 'react';
 import { TabContent, TabPane, Nav, NavItem, NavLink, Card, Button, CardTitle, CardText, Row, Col } from 'reactstrap';
@@ -355,7 +356,7 @@ export const Home = () => {
       <section className="container">
         <div className="row">
           <div className="col-md-6">
-            <p>
+            <p className="">
               Welcome To Square Network Solutions
             </p>
             <h3 className="heading_top drop-out fade-in-down">
@@ -806,7 +807,7 @@ export const Home = () => {
 
       </section>
 
-      <div className="counter">
+      {/* <div className="counter">
         <div className="container">
           <div className="row">
 
@@ -842,7 +843,7 @@ export const Home = () => {
 
           </div>
         </div>
-      </div>
+      </div> */}
 
     </Fragment>
 
