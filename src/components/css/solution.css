@@ -1,0 +1,109 @@
+cyber-security-section {
+    padding: 8vh 0 0px;
+    background: var(--e-global-color-dark-icons-background);
+  }
+  .cyber-content h3{
+    color: linear-gradient(50deg,  #ff0534, #9ba0a3) !important;
+
+  }
+  .rapid_hed{
+    color: -webkit-linear-gradient(50deg,  #ff0534, #9ba0a3) !important;
+    -webkit-text-fill-color: transparent;
+
+  }
+  h3 {
+    /* font-size: 40px; */
+    /* line-height: 46px; */
+    /* font-weight: bold; */
+    background: -webkit-linear-gradient(50deg,  #ff0534, #9ba0a3);
+      background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    /* -webkit-text-fill-color: transparent; */
+  }
+  .cyber-security-section .cyber-content .security-services-p {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #4a4a4a;
+    margin-bottom: 31px;
+  }
+  
+  cyber-security-section .cyber-content .cyber-p-margin-bottom {
+    margin-bottom: 41px;
+  }
+
+  .cyber-security-section .cyber-content .security-services-p {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #4a4a4a;
+    margin-bottom: 31px;
+  }
+  .cyber-contact-btn {
+    transition: transform ease 300ms;
+    background: -webkit-linear-gradient(50deg, #ff0534, #9ba0a3);
+      background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    /* -webkit-text-fill-color: transparent; */
+    border-radius: 16px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .cyber-contact-btn a {
+    background: linear-gradient(115deg, #ff0534, #9ba0a3);
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 600;
+    padding: 11px 37px;
+    border-radius: 100px;
+    transition: transform ease 300ms;
+    color: #fff !important;
+  }
+
+  .about-us-section-start .about-us-content {
+    background: #f9f6f6;
+    border-radius: 5px;
+    padding: 37px 28px 28px 35px;
+    transition: 0s all ease-in-out;
+    cursor: pointer;
+    border-bottom: 3px solid #f9f6f6;
+    transition: transform ease 300ms;
+      transition-property: transform;
+      transition-duration: 300ms;
+      transition-timing-function: ease;
+      margin-bottom: 15px;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  }
+  .about-us-section-start .about-us-content .icons-rounded-box {
+    padding: 12px 16px;
+    display: inline-block;
+    border-radius: 6px;
+    margin-bottom: 23px;
+    background: -webkit-linear-gradient(50deg, #ff0534, #9ba0a3);
+    padding: 12px 16px;
+    display: inline-block;
+    border-radius: 6px;
+    margin-bottom: 23px;
+  }
+  h4 {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: bold;
+    background: -webkit-linear-gradient(50deg, #ff0534, #9ba0a3);
+      background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+
+  .about-us-section-start .security-services-p {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #4a4a4a;
+    padding: 0;
+    margin-bottom: 28px;
+  }

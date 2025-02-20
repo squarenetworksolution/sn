@@ -10,6 +10,11 @@ import { About } from "./components/Pages/About";
 import { Blog } from "./components/Pages/Blog";
 import { Contact } from "./components/Pages/Contact";
 import Product from "./components/Pages/Product";
+import Testpage from "./components/Pages/Testpage";
+import Cybersecuritysolutions from "./components/Pages/Cybersecuritysolutions";
+import Networkingsolutions from "./components/Pages/Networkingsolutions";
+import Itmanagedservices from "./components/Pages/Itmanagedservices";
+import Pcandenterprisesolution from "./components/Pages/Pcandenterprisesolution";
 
 
 
@@ -37,6 +42,11 @@ function App() {
             <Route path="/blog" element={<Blog />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/product" element={<Product/>} />
+            <Route path="/testpage" element={<Testpage/>} />
+            <Route path="/cyber-security-solutions" element={<Cybersecuritysolutions />}/>
+            <Route path="/networking-solutions" element={<Networkingsolutions />}/>
+            <Route path="/it-managed-services" element={<Itmanagedservices/>} />
+            <Route path="/pc-and-enterprise-solution" element={< Pcandenterprisesolution/>}/>
            
 
           </Routes>

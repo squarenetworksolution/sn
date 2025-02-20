@@ -191,7 +191,7 @@ export const Home = () => {
             // altText: 'Great things in business are never done by one person.They are done by a team of people.',
             caption: 'Square Networks helps you	to save time and money',
             key: 1,
-            src: require('../../assets/slide2.png')
+            src: require('../../assets/redbg.png')
 
           },
 

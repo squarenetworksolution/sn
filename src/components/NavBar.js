@@ -79,10 +79,10 @@ function NavBar() {
               <CDropdownToggle color="secondary">Solutions & Services</CDropdownToggle>
               <CDropdownMenu>
 
-                <CDropdownItem href="#">Cyber Security Solutions</CDropdownItem>
-                <CDropdownItem href="#"> Networking Solutions</CDropdownItem>
+                <CDropdownItem href="/cyber-security-solutions" to="/cyber-security-solutions">Cyber Security Solutions</CDropdownItem>
+                <CDropdownItem href="/networking-solutions"> Networking Solutions</CDropdownItem>
                
-                <CDropdownItem href="#">IT Managed Services</CDropdownItem>
+                <CDropdownItem href="/it-managed-services">IT Managed Services</CDropdownItem>
                 <CDropdownItem href="#">PC and Enterprise Solution</CDropdownItem>
                 
 
@@ -114,7 +114,7 @@ function NavBar() {
             <li className="nav-item">
               <NavLink
                 exact
-                to=""
+                to="/product"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}
