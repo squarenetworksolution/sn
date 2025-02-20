@@ -353,7 +353,7 @@ export const Home = () => {
 </section> */}
 
 
-      <section className="container">
+      <section className="container ">
         <div className="row">
           <div className="col-md-6">
             <p className="">

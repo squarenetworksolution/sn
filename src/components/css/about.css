@@ -3,7 +3,19 @@
     font-weight: 600;
 }
 .abt_sec{
-    background: #ff03032b;
+    background: url('../../assets/squarenetwork_about.png');
+}
+.abt_bann{
+    color: #ffff;
+    /* border-radius: 20px; */
+    padding: 20px;
+    margin: 20px 0;
+    background-attachment: fixed;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(45px);
+    -webkit-backdrop-filter: blur(16.8px);
+    /* border: 1px solid rgba(40, 87, 26, 1); */
 }
 
 .abt_sec img{
