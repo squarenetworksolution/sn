@@ -79,7 +79,7 @@ function NavBar() {
               <CDropdownToggle color="secondary">Solutions & Services</CDropdownToggle>
               <CDropdownMenu>
 
-                <CDropdownItem href="/cyber-security-solutions" to="/cyber-security-solutions">Cyber Security Solutions</CDropdownItem>
+                <CDropdownItem to="/cyber-security-solutions">Cyber Security Solutions</CDropdownItem>
                 <CDropdownItem href="/networking-solutions"> Networking Solutions</CDropdownItem>
                
                 <CDropdownItem href="/it-managed-services">IT Managed Services</CDropdownItem>
