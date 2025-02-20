@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "./NavBar.css";
 import { CodeIcon, HamburgetMenuClose, HamburgetMenuOpen } from "./Icons";
 import logo from "../assets/square_network_logo.png";
@@ -79,14 +79,15 @@ function NavBar() {
               <CDropdownToggle color="secondary">Solutions & Services</CDropdownToggle>
               <CDropdownMenu>
 
-                <CDropdownItem to="/cyber-security-solutions">Cyber Security Solutions</CDropdownItem>
-                <CDropdownItem to="/networking-solutions"> Networking Solutions</CDropdownItem>
+                <CDropdownItem ><Link to="/cyber-security-solutions">Cyber Security Solutions </Link> </CDropdownItem>
+                <CDropdownItem ><Link to="/networking-solutions">Networking Solutions</Link> </CDropdownItem>
                
-                <CDropdownItem to="/it-managed-services">IT Managed Services</CDropdownItem>
-                <CDropdownItem  to="/"> PC and Enterprise Solution</CDropdownItem>
+                <CDropdownItem ><Link to="/it-managed-services">IT Managed Services</Link> </CDropdownItem>
+                <CDropdownItem > <Link to="/pc-and-enterprise-solution">PC and Enterprise Solution</Link></CDropdownItem>
                 
 
               </CDropdownMenu>
+
             </CDropdown>
 
             <li className="nav-item">
