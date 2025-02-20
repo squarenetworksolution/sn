@@ -95,7 +95,7 @@ export const About = () => {
       <section>
         <div className="text-center">
           <h3>
-            Why Quantum Networks?
+            Why Square Networks?
           </h3>
 
 
