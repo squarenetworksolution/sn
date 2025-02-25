@@ -15,6 +15,7 @@ import Cybersecuritysolutions from "./components/Pages/Cybersecuritysolutions";
 import Networkingsolutions from "./components/Pages/Networkingsolutions";
 import Itmanagedservices from "./components/Pages/Itmanagedservices";
 import Pcandenterprisesolution from "./components/Pages/Pcandenterprisesolution";
+import Successstories from "./components/Pages/Successstories";
 
 
 
@@ -47,7 +48,8 @@ function App() {
             <Route path="/networking-solutions" element={<Networkingsolutions />}/>
             <Route path="/it-managed-services" element={<Itmanagedservices/>} />
             <Route path="/pc-and-enterprise-solution" element={< Pcandenterprisesolution/>}/>
-           
+            <Route path="/success-stories" element={<Successstories />}/>
+
 
           </Routes>
 

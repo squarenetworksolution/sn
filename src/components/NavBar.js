@@ -92,7 +92,7 @@ function NavBar() {
             <li className="nav-item">
               <NavLink
                 exact
-                to="/"
+                to="/success-stories"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}
