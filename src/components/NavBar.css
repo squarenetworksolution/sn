@@ -741,7 +741,8 @@ font-size: 20px;
     font-size: 55px;
   }
 }
-.button {
+
+/* .button {
   background: #f00;
   padding: 18px 20px;
   text-transform: uppercase;
@@ -752,6 +753,6 @@ font-size: 20px;
   font-weight: 700;
   font-size: 15px;
   color: #fff;
-}
+} */
 
 

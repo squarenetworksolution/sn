@@ -85,40 +85,40 @@ const Animation = () => {
 
 <nav>
   <ul>
-    <li class="all">All</li>
-    <li class="option-one">Option One</li>
-    <li class="option-two">Option Two</li>
+    <li className="all">All</li>
+    <li className="option-one">Option One</li>
+    <li className="option-two">Option Two</li>
   </ul>
 </nav>
 
-<section class="filter-button">
-  <a href="#0" class="panel-button">
-    <span class="bars"></span>
-    <span class="bars"></span>
-    <span class="bars"></span>
+<section className="filter-button">
+  <a href="#0" className="panel-button">
+    <span className="bars"></span>
+    <span className="bars"></span>
+    <span className="bars"></span>
   </a>
   <h2>Filters</h2>
 </section>
-<section class="panel"> 
-		  <section class="panel-content">
-    <section class="filters">
+<section className="panel"> 
+		  <section className="panel-content">
+    <section className="filters">
       <h2>Group Choices:</h2>
       <ul>
-        <li class="check group1-check">
+        <li className="check group1-check">
           <input id='one' type='checkbox' />
           <label for='one'>
             <span></span>
             Group 1
           </label>
         </li>
-        <li class="check group2-check">
+        <li className="check group2-check">
           <input id='two' type='checkbox' />
           <label for='two'>
             <span></span>
             Group 2
           </label>
         </li>
-        <li class="check group3-check">
+        <li className="check group3-check">
           <input id='three' type='checkbox' />
           <label for='three'>
             <span></span>
@@ -132,18 +132,18 @@ const Animation = () => {
 
 <main>
   <section id="products">
-    <div class="one group1"><span>Lorem</span></div>
-    <div class="two group2"><span>Ipsum</span></div>
-    <div class="two group1"><span>Lorem</span></div>
-    <div class="one group2"><span>Dolor</span></div>
-    <div class="two group2"><span>Sit</span></div>
-    <div class="two group2"><span>Amet</span></div>
-    <div class="one group1"><span>Consectetur</span></div>
-    <div class="two group3"><span>Adipiscing</span></div>
-    <div class="two group3"><span>Elit</span></div>
-    <div class="one group3"><span>Cras</span></div>
-    <div class="two group3"><span>Auctor</span></div>
-    <div class="one group3"><span>Felis</span></div>
+    <div className="one group1"><span>Lorem</span></div>
+    <div className="two group2"><span>Ipsum</span></div>
+    <div className="two group1"><span>Lorem</span></div>
+    <div className="one group2"><span>Dolor</span></div>
+    <div className="two group2"><span>Sit</span></div>
+    <div className="two group2"><span>Amet</span></div>
+    <div className="one group1"><span>Consectetur</span></div>
+    <div className="two group3"><span>Adipiscing</span></div>
+    <div className="two group3"><span>Elit</span></div>
+    <div className="one group3"><span>Cras</span></div>
+    <div className="two group3"><span>Auctor</span></div>
+    <div className="one group3"><span>Felis</span></div>
   </section>
 </main>
 </section>

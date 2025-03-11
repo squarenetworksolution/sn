@@ -245,16 +245,19 @@ h2 {
     right: 100%;
   }
 }
+
 @keyframes fillLeft {
   100% {
     right: 100%;
   }
 }
+
 @-webkit-keyframes fillTop {
   100% {
     top: 100%;
   }
 }
+
 @keyframes fillTop {
   100% {
     top: 100%;

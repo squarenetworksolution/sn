@@ -5,6 +5,7 @@ export const Contact = () => {
   return (
 
     <Fragment>
+      
       <section className="container cnt_hder">
 
         <h2><b>CONTACT</b></h2>
@@ -48,10 +49,10 @@ export const Contact = () => {
 
               <h3>Support</h3>
               <p>mail :
-                <b>service@squarenet.in</b>
+                <b>info@squarenet.in</b>
               </p>
               <p>Contact :
-                <b>(+91) 95001 63563</b>
+                <b>(+91) 98409 97427</b>
               </p>
             </div>
           </div>
@@ -87,11 +88,8 @@ export const Contact = () => {
 
               <h3> Chennai - Head Office
               </h3>
-              <p>Esskay Building,
-                144, Greams Road,
-                First Floor,
-                Thousand Lights,
-                Chennai - 600 006.
+              <p>  Upstairs, ICICI Bank, Old No-25, New, 49, Royapettah High Rd, Royapettah, Chennai, Tamil Nadu 600014
+                                            
               </p>
             </div>
 
@@ -131,7 +129,7 @@ export const Contact = () => {
               <p>Contact :
                 <b>Ph:+91 97035 57777</b>
               </p>
-            </div>
+            </div> 
           </div>
 
         </div>

@@ -4,8 +4,14 @@
   border-radius: 25px;
   margin-bottom:20px;
   border: 1px solid #d71e1e;
-
+  min-height: 220px;
+  vertical-align: middle;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
 }
+
 .box_sdw h3{
   font-weight: 600;
 }

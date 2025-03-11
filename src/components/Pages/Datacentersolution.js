@@ -11,7 +11,7 @@ import firewall from "../../assets/firewall.png";
 import ad from "../../assets/ad.png";
 import cable from "../../assets/cables.png";
 
-const Pcandenterprisesolution = () => {
+const Datacentersolution = () => {
   return (
     <Fragment>
          <section className="cyber-security-section cyber-security-section2 overflow-hidden">
@@ -157,4 +157,4 @@ const Pcandenterprisesolution = () => {
 )
 }
 
-export default Pcandenterprisesolution
+export default Datacentersolution

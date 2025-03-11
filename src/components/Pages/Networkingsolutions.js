@@ -16,6 +16,7 @@ import cable from "../../assets/cables.png";
 const Networkingsolutions = () => {
 
   return (
+    
         <Fragment>
              <section className="cyber-security-section cyber-security-section2 overflow-hidden">
                 <div className="container">

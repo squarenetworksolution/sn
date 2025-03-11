@@ -14,17 +14,17 @@ import Testpage from "./components/Pages/Testpage";
 import Cybersecuritysolutions from "./components/Pages/Cybersecuritysolutions";
 import Networkingsolutions from "./components/Pages/Networkingsolutions";
 import Itmanagedservices from "./components/Pages/Itmanagedservices";
-import Pcandenterprisesolution from "./components/Pages/Pcandenterprisesolution";
+// import Pcandenterprisesolution from "./components/Pages/Pcandenterprisesolution";
 import Successstories from "./components/Pages/Successstories";
-
-
-
-
+import Errorpage from "./components/Pages/Errorpage";
+import Productswitches from "./components/Pages/Productswitches";
+// import Productrouters from "./components/Pages/productrouters";
+import Productservers from "./components/Pages/Productservers";
+import Productcables from "./components/Pages/Productcables";
+import Datacentersolution from "./components/Pages/Datacentersolution";
 
 
 // import { Product } from "./components/Pages/Product";
-
-
 
 // import Product, { Animation } from "./components/Pages/Animation"
 
@@ -47,9 +47,14 @@ function App() {
             <Route path="/cyber-security-solutions" element={<Cybersecuritysolutions />}/>
             <Route path="/networking-solutions" element={<Networkingsolutions />}/>
             <Route path="/it-managed-services" element={<Itmanagedservices/>} />
-            <Route path="/pc-and-enterprise-solution" element={< Pcandenterprisesolution/>}/>
+            {/* <Route path="/pc-and-enterprise-solution" element={< Pcandenterprisesolution/>}/> */}
             <Route path="/success-stories" element={<Successstories />}/>
-
+            <Route component={<Errorpage/>}/>
+            <Route path="/product-switches" element={<Productswitches/>} />
+             {/* <Route path="" element={<Productrouters/>} /> */}
+             <Route path="/" element={<Productservers/>} />
+             <Route path="/product-cable" element={<Productcables/>} />           
+              <Route path="" element={<Datacentersolution/>} />
 
           </Routes>
 

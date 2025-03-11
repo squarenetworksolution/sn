@@ -30,6 +30,34 @@ import chassis from "../../assets/chassis.png";
 import ipphone from "../../assets/ipphone.png";
 import fantray from "../../assets/fantray.png";
 import poweradaptor from "../../assets/power_adaptor.png";
+import acer from "../../assets/logo/acer.png";
+import aruba from "../../assets/logo/aruba.png";
+import avaya from "../../assets/logo/avaya.png";
+import aws from "../../assets/logo/aws.png";
+import azure from "../../assets/logo/azure.png";
+import cisco from "../../assets/logo/cisco.png";
+import commscope from "../../assets/logo/commscope.png";
+import dell from "../../assets/logo/dell.png";
+import dynabook from "../../assets/logo/dynabook.png";
+import veritas from "../../assets/logo/veritas.png";
+import vmware from "../../assets/logo/vmware.png";
+import erm from "../../assets/logo/erm.png";
+import fortinet from "../../assets/logo/fortinet.png";
+import genesys from "../../assets/logo/genesys.png";
+import googlecloud from "../../assets/logo/google_cloud.png";
+import hp from "../../assets/logo/hp.png";
+import hpe from "../../assets/logo/hpe.png";
+import microsoft from "../../assets/logo/microsoft.png";
+import oracle from "../../assets/logo/oracle.png";
+import paloalto from "../../assets/logo/paloalto.png";
+import panasonic from "../../assets/logo/panasonic.png";
+import redhat from "../../assets/logo/redhat.png";
+import samsung from "../../assets/logo/samsung.png";
+import seqrite from "../../assets/logo/seqrite.png";
+
+
+
+
 
 // import home from "../../assets/home2.jpg";
 import $ from 'jquery';
@@ -138,7 +166,6 @@ export const Home = () => {
       $('ul.tabs li').eq(currentIndex).addClass('current');
       $("#" + tab_id).addClass('current');
 
-      // Move to the next tab, loop back to the first if at the end
       currentIndex = (currentIndex + 1) % tabCount;
     }
 
@@ -216,25 +243,25 @@ export const Home = () => {
 
       
 {/* <section>
-<div class="bdt-timeline-container">
-  <div class="upk-salf-slider-wrapper">
-        <div class="swiper-container mySwiper2">
-            <div class="swiper-wrapper">
-                <div class="upk-salf-item swiper-slide">
-                    <div class="upk-salf-image-wrap">
-                        <img class="upk-xanc-img" src="https://picsum.photos/id/1011/1200/800" />
+<div className="bdt-timeline-container">
+  <div className="upk-salf-slider-wrapper">
+        <div className="swiper-container mySwiper2">
+            <div className="swiper-wrapper">
+                <div className="upk-salf-item swiper-slide">
+                    <div className="upk-salf-image-wrap">
+                        <img className="upk-xanc-img" src="https://picsum.photos/id/1011/1200/800" />
                     </div>
-                    <div class="upk-salf-content-wrap">
-                        <h3 class="upk-salf-title" data-swiper-parallax-y="-150" data-swiper-parallax-duration="1200">
+                    <div className="upk-salf-content-wrap">
+                        <h3 className="upk-salf-title" data-swiper-parallax-y="-150" data-swiper-parallax-duration="1200">
                             we help you make modern interior
                         </h3>
-                        <div class="upk-salf-desc" data-swiper-parallax-y="-200" data-swiper-parallax-duration="1400" >we will help you to make an elegant and luxurius interrior designed by porfessional interrior designer.</div>
-                        <div class="upk-salf-button" data-swiper-parallax-y="-300" data-swiper-parallax-duration="1500">
-                            <a class="link link--arrowed" href="#">read more
-                                <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 32 32">
+                        <div className="upk-salf-desc" data-swiper-parallax-y="-200" data-swiper-parallax-duration="1400" >we will help you to make an elegant and luxurius interrior designed by porfessional interrior designer.</div>
+                        <div className="upk-salf-button" data-swiper-parallax-y="-300" data-swiper-parallax-duration="1500">
+                            <a className="link link--arrowed" href="#">read more
+                                <svg className="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 32 32">
                                     <g fill="none" stroke="#ff215a" stroke-width="1.5" stroke-linejoin="round" stroke-miterlimit="10">
-                                    <circle class="arrow-icon--circle" cx="16" cy="16" r="15.12"></circle>
-                                    <path class="arrow-icon--arrow" d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>
+                                    <circle className="arrow-icon--circle" cx="16" cy="16" r="15.12"></circle>
+                                    <path className="arrow-icon--arrow" d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>
                                     </g>
                                 </svg>
                             </a>
@@ -242,22 +269,22 @@ export const Home = () => {
                     </div>
                 </div>
 
-                <div class="upk-salf-item swiper-slide">
-                    <div class="upk-salf-image-wrap">
-                        <img class="upk-xanc-img" src="https://picsum.photos/id/1026/1200/800" />
+                <div className="upk-salf-item swiper-slide">
+                    <div className="upk-salf-image-wrap">
+                        <img className="upk-xanc-img" src="https://picsum.photos/id/1026/1200/800" />
                     </div>
-                    <div class="upk-salf-content-wrap">
-                        <h3 class="upk-salf-title" data-swiper-parallax-y="-150" data-swiper-parallax-duration="1200">
+                    <div className="upk-salf-content-wrap">
+                        <h3 className="upk-salf-title" data-swiper-parallax-y="-150" data-swiper-parallax-duration="1200">
                             we help you make modern interior
                         </h3>
-                        <div class="upk-salf-desc" data-swiper-parallax-y="-200" data-swiper-parallax-duration="1400">we will help you to make an elegant and luxurius interrior designed by porfessional interrior designer.</div>
+                        <div className="upk-salf-desc" data-swiper-parallax-y="-200" data-swiper-parallax-duration="1400">we will help you to make an elegant and luxurius interrior designed by porfessional interrior designer.</div>
 
-                            <div class="upk-salf-button" data-swiper-parallax-y="-300" data-swiper-parallax-duration="1500">
-                            <a class="link link--arrowed" href="#">read more
-                                <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 32 32">
+                            <div className="upk-salf-button" data-swiper-parallax-y="-300" data-swiper-parallax-duration="1500">
+                            <a className="link link--arrowed" href="#">read more
+                                <svg className="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 32 32">
                                     <g fill="none" stroke="#ff215a" stroke-width="1.5" stroke-linejoin="round" stroke-miterlimit="10">
-                                    <circle class="arrow-icon--circle" cx="16" cy="16" r="15.12"></circle>
-                                    <path class="arrow-icon--arrow" d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>
+                                    <circle className="arrow-icon--circle" cx="16" cy="16" r="15.12"></circle>
+                                    <path className="arrow-icon--arrow" d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>
                                     </g>
                                 </svg>
                             </a>
@@ -265,22 +292,22 @@ export const Home = () => {
                     </div>
                 </div>
 
-                <div class="upk-salf-item swiper-slide">
-                    <div class="upk-salf-image-wrap">
-                        <img class="upk-xanc-img" src="https://picsum.photos/id/201/1200/800" />
+                <div className="upk-salf-item swiper-slide">
+                    <div className="upk-salf-image-wrap">
+                        <img className="upk-xanc-img" src="https://picsum.photos/id/201/1200/800" />
                     </div>
-                    <div class="upk-salf-content-wrap">
-                        <h3 class="upk-salf-title" data-swiper-parallax-y="-150" data-swiper-parallax-duration="1200">
+                    <div className="upk-salf-content-wrap">
+                        <h3 className="upk-salf-title" data-swiper-parallax-y="-150" data-swiper-parallax-duration="1200">
                             we help you make modern interior
                         </h3>
-                        <div class="upk-salf-desc" data-swiper-parallax-y="-200" data-swiper-parallax-duration="1400">we will help you to make an elegant and luxurius interrior designed by porfessional interrior designer.</div>
+                        <div className="upk-salf-desc" data-swiper-parallax-y="-200" data-swiper-parallax-duration="1400">we will help you to make an elegant and luxurius interrior designed by porfessional interrior designer.</div>
 
-                            <div class="upk-salf-button" data-swiper-parallax-y="-300" data-swiper-parallax-duration="1500">
-                            <a class="link link--arrowed" href="#">read more
-                                <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 32 32">
+                            <div className="upk-salf-button" data-swiper-parallax-y="-300" data-swiper-parallax-duration="1500">
+                            <a className="link link--arrowed" href="#">read more
+                                <svg className="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 32 32">
                                     <g fill="none" stroke="#ff215a" stroke-width="1.5" stroke-linejoin="round" stroke-miterlimit="10">
-                                    <circle class="arrow-icon--circle" cx="16" cy="16" r="15.12"></circle>
-                                    <path class="arrow-icon--arrow" d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>
+                                    <circle className="arrow-icon--circle" cx="16" cy="16" r="15.12"></circle>
+                                    <path className="arrow-icon--arrow" d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>
                                     </g>
                                 </svg>
                             </a>
@@ -288,22 +315,22 @@ export const Home = () => {
                     </div>
                 </div>
               
-                <div class="upk-salf-item swiper-slide">
-                    <div class="upk-salf-image-wrap">
-                        <img class="upk-xanc-img" src="https://picsum.photos/id/167/1200/800" />
+                <div className="upk-salf-item swiper-slide">
+                    <div className="upk-salf-image-wrap">
+                        <img className="upk-xanc-img" src="https://picsum.photos/id/167/1200/800" />
                     </div>
-                    <div class="upk-salf-content-wrap">
-                        <h3 class="upk-salf-title" data-swiper-parallax-y="-150" data-swiper-parallax-duration="1200">
+                    <div className="upk-salf-content-wrap">
+                        <h3 className="upk-salf-title" data-swiper-parallax-y="-150" data-swiper-parallax-duration="1200">
                             we help you make modern interior
                         </h3>
-                        <div class="upk-salf-desc" data-swiper-parallax-y="-200" data-swiper-parallax-duration="1400">we will help you to make an elegant and luxurius interrior designed by porfessional interrior designer.</div>
+                        <div className="upk-salf-desc" data-swiper-parallax-y="-200" data-swiper-parallax-duration="1400">we will help you to make an elegant and luxurius interrior designed by porfessional interrior designer.</div>
 
-                            <div class="upk-salf-button" data-swiper-parallax-y="-300" data-swiper-parallax-duration="1500">
-                            <a class="link link--arrowed" href="#">read more
-                                <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 32 32">
+                            <div className="upk-salf-button" data-swiper-parallax-y="-300" data-swiper-parallax-duration="1500">
+                            <a className="link link--arrowed" href="#">read more
+                                <svg className="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 32 32">
                                     <g fill="none" stroke="#ff215a" stroke-width="1.5" stroke-linejoin="round" stroke-miterlimit="10">
-                                    <circle class="arrow-icon--circle" cx="16" cy="16" r="15.12"></circle>
-                                    <path class="arrow-icon--arrow" d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>
+                                    <circle className="arrow-icon--circle" cx="16" cy="16" r="15.12"></circle>
+                                    <path className="arrow-icon--arrow" d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>
                                     </g>
                                 </svg>
                             </a>
@@ -312,43 +339,43 @@ export const Home = () => {
                 </div>
             </div>
         </div>
-        <div class="upk-page-scroll">
-            <a class="arrow-up">
-                <div class="long-arrow-left"></div>
-                <span class="arrow-slide"></span>
+        <div className="upk-page-scroll">
+            <a className="arrow-up">
+                <div className="long-arrow-left"></div>
+                <span className="arrow-slide"></span>
             </a>
         </div>
-        <div class="upk-salf-nav-pag-wrap">
+        <div className="upk-salf-nav-pag-wrap">
             
-            <div class="upk-salf-navigation">
-                <div class="upk-button-prev upk-n-p">
-                    <a class="link link--arrowed" href="#">
-                        <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 32 32">
+            <div className="upk-salf-navigation">
+                <div className="upk-button-prev upk-n-p">
+                    <a className="link link--arrowed" href="#">
+                        <svg className="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 32 32">
                             <g fill="none" stroke="#ff215a" stroke-width="1.5" stroke-linejoin="round" stroke-miterlimit="10">
-                            <circle class="arrow-icon--circle" cx="16" cy="16" r="15.12"></circle>
-                            <path class="arrow-icon--arrow" d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>
+                            <circle className="arrow-icon--circle" cx="16" cy="16" r="15.12"></circle>
+                            <path className="arrow-icon--arrow" d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>
                             </g>
                         </svg>
                     </a>
                 </div>
-                <div class="upk-button-next upk-n-p">
-                    <a class="link link--arrowed" href="#">
-                        <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 32 32">
+                <div className="upk-button-next upk-n-p">
+                    <a className="link link--arrowed" href="#">
+                        <svg className="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 32 32">
                             <g fill="none" stroke="#ff215a" stroke-width="1.5" stroke-linejoin="round" stroke-miterlimit="10">
-                            <circle class="arrow-icon--circle" cx="16" cy="16" r="15.12"></circle>
-                            <path class="arrow-icon--arrow" d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>
+                            <circle className="arrow-icon--circle" cx="16" cy="16" r="15.12"></circle>
+                            <path className="arrow-icon--arrow" d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>
                             </g>
                         </svg>
                     </a>
                 </div>
             </div>
 
-            <div class="upk-salf-pagi-wrap">
-                <div class="swiper-pagination"></div>
+            <div className="upk-salf-pagi-wrap">
+                <div className="swiper-pagination"></div>
             </div>
         </div>
     </div>
- <a class="button" href="https://bdthemes.net/demo/wordpress/ultimate-post-kit/demo/">view wordpress demo</a>
+ <a className="button" href="https://bdthemes.net/demo/wordpress/ultimate-post-kit/demo/">view wordpress demo</a>
 </div>
 </section> */}
 
@@ -585,6 +612,170 @@ export const Home = () => {
 
         </div>
         </div>
+      </section>
+
+      <section>
+<h3 className="heading1 our_vlu">Our Brand Partners</h3>
+<div className="rc-carousel" style={{"--tiles": 18}}>
+  <div className="rc-carousel-strip">
+    <div className="rc-carousel-box" >
+      <div className="rc-carousel-item">
+        <img className="rc-carousel-item-image" src={acer} alt="acer" />
+      </div>
+      <div className="rc-carousel-item">
+        <img className="rc-carousel-item-image" src={aruba} alt="aruba" />
+      </div>
+      <div className="rc-carousel-item">
+        <img className="rc-carousel-item-image" src={avaya} alt="avaya" />
+      </div>
+      <div className="rc-carousel-item">
+        <img className="rc-carousel-item-image" src={aws} alt="aws" />
+      </div>
+      <div className="rc-carousel-item">
+        <img className="rc-carousel-item-image" src={azure} alt="azure" />
+      </div>
+      <div className="rc-carousel-item">
+        <img className="rc-carousel-item-image" src={cisco} alt="cisco" />
+      </div>
+      <div className="rc-carousel-item">
+        <img className="rc-carousel-item-image" src={commscope} alt="commscope" />
+      </div>
+      <div className="rc-carousel-item">
+        <img className="rc-carousel-item-image" src={dell} alt="dell" />
+      </div>
+      <div className="rc-carousel-item">
+        <img className="rc-carousel-item-image" src={dynabook} alt="dynabook" />
+      </div>
+      <div className="rc-carousel-item">
+        <img className="rc-carousel-item-image" src={veritas} alt="veritas" />
+      </div>
+      <div className="rc-carousel-item">
+        <img className="rc-carousel-item-image" src={vmware} alt="vmware" />
+      </div>
+      <div className="rc-carousel-item">
+        <img className="rc-carousel-item-image" src={acer} alt="acer" />
+      </div>
+      <div className="rc-carousel-item">
+        <img className="rc-carousel-item-image" src={aruba} alt="aruba" />
+      </div>
+      <div className="rc-carousel-item">
+        <img className="rc-carousel-item-image" src={avaya} alt="avaya" />
+      </div>
+      <div className="rc-carousel-item">
+        <img className="rc-carousel-item-image" src={aws} alt="aws" />
+      </div>
+      <div className="rc-carousel-item">
+        <img className="rc-carousel-item-image" src={azure} alt="azure" />
+      </div>
+      <div className="rc-carousel-item">
+        <img className="rc-carousel-item-image" src={cisco} alt="cisco" />
+      </div>
+      <div className="rc-carousel-item">
+        <img className="rc-carousel-item-image" src={commscope} alt="commscope" />
+      </div>
+      <div className="rc-carousel-item">
+        <img className="rc-carousel-item-image" src={dell} alt="dell" />
+      </div>
+      <div className="rc-carousel-item">
+        <img className="rc-carousel-item-image" src={dynabook} alt="dynabook" />
+      </div>
+      <div className="rc-carousel-item">
+        <img className="rc-carousel-item-image" src={veritas} alt="veritas" />
+      </div>
+      <div className="rc-carousel-item">
+        <img className="rc-carousel-item-image" src={vmware} alt="vmware" />
+      </div>
+
+
+    </div>
+  </div>
+</div>
+
+<div className="rc-carousel" style={{"--tiles": 18}}>
+  <div className="rc-carousel-strip reverse">
+    <div className="rc-carousel-box">
+      <div className="rc-carousel-item">
+        <img className="rc-carousel-item-image" src={erm} alt="erm" />
+      </div>
+      <div className="rc-carousel-item">
+        <img className="rc-carousel-item-image" src={fortinet} alt="fortinet" />
+      </div>
+      <div className="rc-carousel-item">
+        <img className="rc-carousel-item-image" src={genesys} alt="genesys" />
+      </div>
+      <div className="rc-carousel-item">
+        <img className="rc-carousel-item-image" src={googlecloud} alt="googlecloud" />
+      </div>
+      <div className="rc-carousel-item">
+        <img className="rc-carousel-item-image" src={hp} alt="hp" />
+      </div>
+      <div className="rc-carousel-item">
+        <img className="rc-carousel-item-image" src={microsoft} alt="microsoft" />
+      </div>
+      <div className="rc-carousel-item">
+        <img className="rc-carousel-item-image" src={hpe} alt="hpe" />
+      </div>
+      <div className="rc-carousel-item">
+        <img className="rc-carousel-item-image" src={oracle} alt="oracle" />
+      </div>
+      <div className="rc-carousel-item">
+        <img className="rc-carousel-item-image" src={paloalto} alt="paloalto" />
+      </div>
+      <div className="rc-carousel-item">
+        <img className="rc-carousel-item-image" src={panasonic} alt="panasonic" />
+      </div>
+      <div className="rc-carousel-item">
+        <img className="rc-carousel-item-image" src={redhat} alt="redhat" />
+      </div>
+      <div className="rc-carousel-item">
+        <img className="rc-carousel-item-image" src={samsung} alt="samsung" />
+      </div>
+      <div className="rc-carousel-item">
+        <img className="rc-carousel-item-image" src={seqrite} alt="seqrite" />
+      </div>
+      <div className="rc-carousel-item">
+        <img className="rc-carousel-item-image" src={erm} alt="erm" />
+      </div>
+      <div className="rc-carousel-item">
+        <img className="rc-carousel-item-image" src={fortinet} alt="fortinet" />
+      </div>
+      <div className="rc-carousel-item">
+        <img className="rc-carousel-item-image" src={genesys} alt="genesys" />
+      </div>
+      <div className="rc-carousel-item">
+        <img className="rc-carousel-item-image" src={googlecloud} alt="googlecloud" />
+      </div>
+      <div className="rc-carousel-item">
+        <img className="rc-carousel-item-image" src={hp} alt="hp" />
+      </div>
+      <div className="rc-carousel-item">
+        <img className="rc-carousel-item-image" src={microsoft} alt="microsoft" />
+      </div>
+      <div className="rc-carousel-item">
+        <img className="rc-carousel-item-image" src={oracle} alt="oracle" />
+      </div>
+      <div className="rc-carousel-item">
+        <img className="rc-carousel-item-image" src={paloalto} alt="paloalto" />
+      </div>
+      <div className="rc-carousel-item">
+        <img className="rc-carousel-item-image" src={panasonic} alt="panasonic" />
+      </div>
+      <div className="rc-carousel-item">
+        <img className="rc-carousel-item-image" src={redhat} alt="redhat" />
+      </div>
+      <div className="rc-carousel-item">
+        <img className="rc-carousel-item-image" src={samsung} alt="samsung" />
+      </div>
+      <div className="rc-carousel-item">
+        <img className="rc-carousel-item-image" src={seqrite} alt="seqrite" />
+      </div>
+     
+    </div>
+  </div>
+</div>
+
+
+
       </section>
 
       <section className="our_sec container">
