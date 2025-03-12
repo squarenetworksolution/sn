@@ -1,9 +1,9 @@
-import React, { Fragement } from 'react'
+import React, { Fragment } from 'react'
 
 const Errorpage = () => {
 return (
 
-<Fragement>
+<Fragment>
 
 <div className="flex flex-col items-center justify-center h-screen text-center">
 <h1 className="text-4xl font-bold text-red-600">404 - Page Not Found</h1>
@@ -15,7 +15,7 @@ Go to Home
 </a>
 </div>
 
-</Fragement>
+</Fragment>
 )
 }
 
