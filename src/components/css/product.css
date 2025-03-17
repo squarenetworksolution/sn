@@ -20,11 +20,16 @@ a.button {
   margin-top:30px;
 }
 
-div[class*="content-"] { 
+/* div[class*="content-"] { 
   display:none;
-}
+} */
 
 div.active { 
   display:block;
 }
 
+.justify_content_center{
+  justify-content: center !important;
+  display: flex;
+  flex-direction: column;
+}

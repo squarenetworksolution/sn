@@ -83,7 +83,7 @@ function NavBar() {
                 <CDropdownItem ><Link to="/networking-solutions">Networking Solutions</Link> </CDropdownItem>
                
                 <CDropdownItem ><Link to="/it-managed-services">IT Managed Services</Link> </CDropdownItem>
-                <CDropdownItem > <Link to="/">Data Center Solution</Link></CDropdownItem>
+                <CDropdownItem > <Link to="/data-center-solution">Data Center Solution</Link></CDropdownItem>
                 
               </CDropdownMenu>
 

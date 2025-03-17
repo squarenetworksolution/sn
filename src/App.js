@@ -12,7 +12,7 @@ import { Contact } from "./components/Pages/Contact";
 import Product from "./components/Pages/Product";
 import Testpage from "./components/Pages/Testpage";
 import Cybersecuritysolutions from "./components/Pages/Cybersecuritysolutions";
-import Networkingsolutions from "./components/Pages/Networkingsolutions";
+import Networkingsolutions from "./components/Pages/NetworkSolutions";
 import Itmanagedservices from "./components/Pages/Itmanagedservices";
 // import Pcandenterprisesolution from "./components/Pages/Pcandenterprisesolution";
 import Successstories from "./components/Pages/Successstories";
@@ -39,9 +39,9 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             {/* <Route path="/animation" element={<Animation/>} /> */}
-            <Route path="/about" element={<About />} />
-            <Route path="/blog" element={<Blog />} />
-            <Route path="/contact" element={<Contact />} />
+            <Route path="/about" element={<About />}/>
+            <Route path="/blog" element={<Blog />}/>
+            <Route path="/contact" element={<Contact/>}/>
             <Route path="/product" element={<Product/>} />
             <Route path="/testpage" element={<Testpage/>} />
             <Route path="/cyber-security-solutions" element={<Cybersecuritysolutions />}/>
@@ -54,7 +54,7 @@ function App() {
              {/* <Route path="" element={<Productrouters/>} /> */}
              <Route path="/" element={<Productservers/>} />
              <Route path="/product-cable" element={<Productcables/>} />           
-              <Route path="" element={<Datacentersolution/>} />
+              <Route path="/data-center-solution" element={<Datacentersolution/>} />
 
           </Routes>
 

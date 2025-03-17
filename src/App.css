@@ -685,4 +685,10 @@ p {
   background-color: #efefef;
 }
 
+div ul li{
+  list-style-type: none;
+}
 
+ol, ul{
+  padding-left:0 !important;
+}
