@@ -614,7 +614,7 @@ export const Home = () => {
         </div>
       </section>
 
-      <section>
+      <section className="brand_sec">
 <h3 className="heading1 our_vlu">Our Brand Partners</h3>
 <div className="rc-carousel" style={{"--tiles": 18}}>
   <div className="rc-carousel-strip">
