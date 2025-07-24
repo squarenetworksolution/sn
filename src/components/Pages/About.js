@@ -6,6 +6,7 @@ import switches from "../../assets/about_head.png";
 
 export const About = () => {
   return (
+    
     <Fragment>
       <section className="abt_sec">
         <div className="container">

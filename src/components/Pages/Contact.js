@@ -299,7 +299,9 @@ export const Contact = () => {
           <div className="col-md-4">
             <div className="box_sdw">
               <h3>Bengaluru</h3>
-              <p>Door No. 1961, Aradhana Arcade 2nd Floor, New Thippasandra Main Road, HAL 3rd Stage, Bangalore-560075
+              <p>
+              
+           Door No. 22, 12th B Main Rd, HAL 2nd Stage, Doopanahalli, Indiranagar, Bengaluru, Karnataka 560008
               </p>
 
               <p>Mail :
