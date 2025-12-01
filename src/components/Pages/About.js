@@ -18,7 +18,7 @@ export const About = () => {
                 </h3>
 
                 <p>
-                  Square Network Solutions, established 25 years ago, has emerged as a leading
+                  Square Network Solutions, established 27+ years ago, has emerged as a leading
                   provider of data center, networking, and cybersecurity services. With extensive
                   experience in the IT sector, our company has successfully partnered with major IT
                   firms and executed numerous projects for the Tamil Nadu government. Our presence
