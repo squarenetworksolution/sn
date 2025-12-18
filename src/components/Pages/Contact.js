@@ -44,6 +44,7 @@ export const Contact = () => {
     const subdivision = event.target.value;
     setSelectedSubdivision(subdivision);
     setWhatsappContact(data[selectedState]?.[subdivision] || "");
+    
   };
 
   const sendMessageToWhatsApp = () => {
