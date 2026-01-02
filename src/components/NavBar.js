@@ -84,11 +84,12 @@ function NavBar() {
                
                 <CDropdownItem ><Link to="/it-managed-services">IT Managed Services</Link> </CDropdownItem>
                 <CDropdownItem > <Link to="/data-center-solution">Data Center Solution</Link></CDropdownItem>
+                <CDropdownItem > <Link to="/success-stories">Success Stories</Link></CDropdownItem>
                 
               </CDropdownMenu>
             </CDropdown>
 
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <NavLink
                 exact
                 to="/success-stories"
@@ -98,7 +99,8 @@ function NavBar() {
               >
                 Success Stories
               </NavLink>
-            </li>
+            </li> */}
+            
             <li className="nav-item">
               <NavLink
                 exact

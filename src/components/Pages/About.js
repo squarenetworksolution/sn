@@ -8,11 +8,14 @@ export const About = () => {
   return (
     
     <Fragment>
+
       <section className="abt_sec">
         <div className="container">
           <div className="row">
+
             <div className="col-md-6" >
               <div className="abt_bann">
+
                 <h3 className="abt_head">
                   We are Square Networks
                 </h3>
@@ -28,17 +31,18 @@ export const About = () => {
                   reach and partnerships with many international brands highlight our commitment to
                   delivering top-notch IT services and solutions.
                 </p>
-              </div>
+
+            
+             </div>
             </div>
             <div className="col-md-6" >
               <img src={switches} className="" alt="switches_squarenetwork" />
             </div>
-          </div>
 
+          </div>
+          
         </div>
       </section>
-
-
 
       <section className="our_sec container">
 
