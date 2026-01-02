@@ -2,6 +2,7 @@ import React, { Fragment, useState } from "react";
 import Swal from "sweetalert2";
 import "../../components/css/contact.css";
 
+
 const data = {
   Karnataka: {
     Bangalore: "+919840987432",
@@ -12,12 +13,14 @@ const data = {
     vellore: "+919840987432",
     Krishnagiri: "+919840987432",
   },
+
   "Andhra Pradesh": {
     Tirupati: "+919840987432",
   },
 };
 
 export const Contact = () => {
+
   const [selectedState, setSelectedState] = useState("");
   const [selectedSubdivision, setSelectedSubdivision] = useState("");
   const [subdivisions, setSubdivisions] = useState([]);
@@ -32,20 +35,21 @@ export const Contact = () => {
     return regex.test(email);
   };
 
+
   const handleStateChange = (event) => {
     const state = event.target.value;
     setSelectedState(state);
     setSubdivisions(Object.keys(data[state] || {}));
     setSelectedSubdivision("");
     setWhatsappContact("");
+
   };
 
   const handleSubdivisionChange = (event) => {
     const subdivision = event.target.value;
     setSelectedSubdivision(subdivision);
     setWhatsappContact(data[selectedState]?.[subdivision] || "");
-    
-  };
+};
 
   const sendMessageToWhatsApp = () => {
     if (!userName || !userMessage || !selectedState || !selectedSubdivision || !category || !userEmail) {
@@ -72,6 +76,7 @@ export const Contact = () => {
 
     const whatsappURL = `https://wa.me/${whatsappContact}?text=${encodedMessage}`;
     window.open(whatsappURL, "_blank");
+    
   };
 
   return (

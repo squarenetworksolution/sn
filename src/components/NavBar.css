@@ -447,9 +447,11 @@ font-size: 20px;
   margin-bottom: 20px;
   opacity: 0;
 }
+
 .upk-salf-slider-wrapper .upk-salf-item .upk-salf-button {
   opacity: 0;
 }
+
 .upk-salf-slider-wrapper .upk-salf-item .upk-salf-button .link {
   color: #2b2d42;
   cursor: pointer;

@@ -432,7 +432,7 @@ const Product = () => {
                   </h3>
                   <ul>
                     <li>
-                      Over 25 years of expertise in IT hardware solutions.
+                      Over 27+ years of expertise in IT hardware solutions.
                     </li>
                     <li>
                       Trusted by 1000+ customers, including SMEs, enterprises, and government sectors.

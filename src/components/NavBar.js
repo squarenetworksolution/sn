@@ -86,7 +86,6 @@ function NavBar() {
                 <CDropdownItem > <Link to="/data-center-solution">Data Center Solution</Link></CDropdownItem>
                 
               </CDropdownMenu>
-
             </CDropdown>
 
             <li className="nav-item">

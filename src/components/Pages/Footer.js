@@ -14,7 +14,7 @@ const Footer = () => {
     }, []);
 
     return (
-        
+
         <Fragment>
             <footer className="footer-section">
                 <div className="container">
@@ -78,9 +78,9 @@ const Footer = () => {
                           
                           
                                         <li><a href="/">services</a></li>
-                                        <li><a href="/">Contact</a></li>
-                                        <li><a href="/">About us</a></li>
-                                        <li><a href="/">Success Stories</a></li>
+                                        <li><a href="https://squarenet.in/contact">Contact</a></li>
+                                        <li><a href="https://squarenet.in/about">About us</a></li>
+                                        <li><a href="https://squarenet.in/success-stories">Success Stories</a></li>
                                         
                                     </ul>
                                 </div>
@@ -140,6 +140,7 @@ const Footer = () => {
                                         </p>
                                         {/* ... other code ... */}
                                     </div>
+                                    
                                     {/* <p>Copyright &copy; 2018, All Right Reserved </p> */}
                                 </div>
                             </div>

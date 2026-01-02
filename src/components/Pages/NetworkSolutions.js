@@ -106,7 +106,7 @@ const Networkingsolutions = () => {
 
                             <h4>Why Choose Square Network Solutions?</h4>
                             <ul>
-                                <li>Industry Expertise: 25+ years of experience in IT networking.</li>
+                                <li>Industry Expertise: 27+ years of experience in IT networking.</li>
                                 <li>Global OEM Partnerships: Collaborations with 50+ top technology brands.</li>
                                 <li>Tailored Solutions: Customized networking solutions for diverse industries. </li>
                                 <li> End-to-End Support: Consultation, deployment, and 24/7 after-sales service.</li>
