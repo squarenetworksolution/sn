@@ -848,12 +848,12 @@ const [currentIndex, setCurrentIndex] = useState(0);
       </section>
 </ScrollFade>
 
-<ScrollFade>
+ 
 
       <section className="red_nett">
 
       </section>
-</ScrollFade>
+ 
 
 <ScrollFade>
 
