@@ -22,6 +22,8 @@ import Productswitches from "./components/Pages/Productswitches";
 import Productservers from "./components/Pages/Productservers";
 import Productcables from "./components/Pages/Productcables";
 import Datacentersolution from "./components/Pages/Datacentersolution";
+import OurTeams from "./components/Pages/OurTeams";
+import ScrollFade from "./components/ScrollFade";
 
 
 // import { Product } from "./components/Pages/Product";
@@ -56,6 +58,8 @@ function App() {
              <Route path="/" element={<Productservers/>} />
              <Route path="/product-cable" element={<Productcables/>} />           
               <Route path="/data-center-solution" element={<Datacentersolution/>} />
+              <Route path="/our-teams" element={<OurTeams/>} />
+              <Route path="/scroll-fade" element={<ScrollFade/>} />
 
           </Routes>
 

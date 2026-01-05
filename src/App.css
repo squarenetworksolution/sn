@@ -50,26 +50,46 @@ img{
 }
 
 section{ padding: 50px 0;}
-.heading_top{overflow-y: hidden; font-size: 40px; font-weight: bold; color: #c12329;}
+.heading_top{overflow-y: hidden; font-size: 40px; font-weight: bold; color: #fc1f1b;}
 .heading_top_p{font-size: 20px; color: #000000;padding: 16px 0;
 }
+
 .hme_box{
   padding: 20px;
   background: #efefef;
   margin-bottom: 20px;
   transition: 0.3s;
+  border: 1px solid #fc1f1b;
+  height: 90%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column ;
+}
+
+.hme_box:hover,
+.hme_box:hover *{
+  color:#fff !important;
 }
 
 .hme_box:hover{
-background-color: #f8acac;
+background-color:#fc1f1b ;
 transform: scale(1.1);
-border-radius: 20px;
+border-radius: 20px ;
+color: #fff !important;
 }
 
 .hme_box h5{
   font-size: 25px;
   font-weight: 600;
+  color: #fc1f1b;
 }
+
+.hme_box h5:hover{
+  color: #fff !important;
+}
+
 .hme_box p{
   font-size: 18px;
 }

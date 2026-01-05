@@ -257,14 +257,15 @@ ul.tabs li{
 }
 
 ul.tabs li.current{
-  background: #ff00001c;
-  color: #222;
+  background: #fc1f2b;
+  color: #fff;
   border-radius: 25px;
 }
 
 .tab-content{
   display: none;
-  background: #ff00001c;
+  background: #fc1f2b;
+  color: #fff;
   padding: 30px;
   border-radius: 30px;
   margin-bottom: 30px;
@@ -272,7 +273,8 @@ ul.tabs li.current{
 
 .tab-content h3{
 font-size: 40px;
-color: #c12329;
+color: #fff;
+font-weight: 500;
 }
 
 .tab-content.current{
@@ -282,6 +284,8 @@ color: #c12329;
 .tabs li  div img{
   width: 100px;
   height: 100px;
+  border-radius: 50%;
+
 }
 
 .tabs{
@@ -758,3 +762,13 @@ font-size: 20px;
 } */
 
 
+.fadeIn {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all .7s ease-in-out;
+}
+
+.fadeIn.show {
+  opacity: 1;
+  transform: translateY(0);
+}

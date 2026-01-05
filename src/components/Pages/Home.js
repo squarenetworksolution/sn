@@ -10,6 +10,8 @@ import classnames from 'classnames';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "@fontsource/space-grotesk";
 import "@fontsource/space-grotesk/400.css";
+import ScrollFade from "../ScrollFade";
+
 
 // import logo from "../../assets/logo_squarenetwork.jpg";
 // import flash from "../../assets/flash.png";
@@ -57,8 +59,6 @@ import seqrite from "../../assets/logo/seqrite.png";
 
 
 
-
-
 // import home from "../../assets/home2.jpg";
 import $ from 'jquery';
 
@@ -69,10 +69,7 @@ import {
 
 export const Home = () => {
 
-
-
-  
-  const [currentIndex, setCurrentIndex] = useState(0);
+const [currentIndex, setCurrentIndex] = useState(0);
 
   const slides = [
     {
@@ -377,7 +374,8 @@ export const Home = () => {
 </div>
 </section> */}
 
-
+<ScrollFade>
+  
       <section className="container ">
         <div className="row">
           <div className="col-md-6">
@@ -470,6 +468,7 @@ export const Home = () => {
           </div>
         </div>
       </section>
+</ScrollFade>
 
       <div className="container">
         <Nav tabs>
@@ -519,6 +518,8 @@ export const Home = () => {
           </TabPane>
         </TabContent>
       </div>
+
+<ScrollFade>
 
       <section className="red_net">
         <div className="container">
@@ -611,6 +612,10 @@ export const Home = () => {
         </div>
         </div>
       </section>
+</ScrollFade>
+
+
+<ScrollFade>
 
       <section className="brand_sec">
 <h3 className="heading1 our_vlu">Our Brand Partners</h3>
@@ -775,6 +780,10 @@ export const Home = () => {
 
 
       </section>
+</ScrollFade>
+
+
+<ScrollFade>
 
       <section className="our_sec container">
 
@@ -837,9 +846,16 @@ export const Home = () => {
         </div>
 
       </section>
+</ScrollFade>
+
+<ScrollFade>
+
       <section className="red_nett">
 
       </section>
+</ScrollFade>
+
+<ScrollFade>
 
       <section className="container">
         <div className="row">
@@ -995,6 +1011,7 @@ export const Home = () => {
         </div>
 
       </section>
+</ScrollFade>
 
       {/* <div className="counter">
         <div className="container">

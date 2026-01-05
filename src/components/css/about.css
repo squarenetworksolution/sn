@@ -27,7 +27,7 @@ border-radius: 25px;
     font-size: 45px;
     font-weight: 600;
     margin-bottom: 40px;
-    color: #c12329;
+    color: #fc1f1b;
 }
 
 .abt_our_each{
@@ -60,4 +60,15 @@ transform: scale(1.1);
 
 .abt_bann p{
     font-size: 18px;
+}
+
+.fadeIn {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all .7s ease-in-out;
+}
+
+.fadeIn.show {
+  opacity: 1;
+  transform: translateY(0);
 }

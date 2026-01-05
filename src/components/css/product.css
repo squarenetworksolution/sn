@@ -33,3 +33,13 @@ div.active {
   display: flex;
   flex-direction: column;
 }
+.fadeIn {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all .7s ease-in-out;
+}
+
+.fadeIn.show {
+  opacity: 1;
+  transform: translateY(0);
+}

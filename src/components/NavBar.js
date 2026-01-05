@@ -78,7 +78,7 @@ function NavBar() {
             <CDropdown variant="nav-item" popper={false}>
               <CDropdownToggle color="secondary">Solutions & Services</CDropdownToggle>
               <CDropdownMenu>
-
+                
                 <CDropdownItem ><Link to="/cyber-security-solutions">Cyber Security Solutions </Link> </CDropdownItem>
                 <CDropdownItem ><Link to="/networking-solutions">Networking Solutions</Link> </CDropdownItem>
                
@@ -113,6 +113,20 @@ function NavBar() {
               </NavLink>
               
             </li>
+
+        <li className="nav-item">
+              <NavLink
+                exact
+                to="/our-teams"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Our Teams
+              </NavLink>
+              
+            </li>
+
             <li className="nav-item">
               <NavLink
                 exact
@@ -132,7 +146,9 @@ function NavBar() {
               <span className="icon">
                 <HamburgetMenuOpen />{" "}
               </span>
+
             ) : (
+
               <span className="icon">
                 <HamburgetMenuClose />
               </span>
