@@ -15,21 +15,22 @@ const OurTeams = () => {
   const employees = [
 {
       name: "Mr Bala Subramani T",
-      role: "Assistant Manager",
+      role: "Assistant Manager - Service",
       email: "📤 bala@squarenet.in",
       phone: "📞 +91 9840316466",
 
       image: bala
     },
+
   {
       name: "Mr Dilli Ganesh Dharuman",
-      role: "Senior Manager Accounts",
+      role: "Senior Manager Accounts - Admin & Accounts",
       email: "📤 ganesh@squarenet.in",
       phone: "📞 +91 9940668743",
 
       image: dilli
     },
-    
+  
        {
       name: "Mr Selva Kumar",
       role: "Service Manager",
@@ -37,9 +38,10 @@ const OurTeams = () => {
       phone: "📞 +91 9500049687",
       image: selva
     },
+
      {
-      name: "Mr kartheepan M",
-      role: "Assistant Manager",
+      name: "Mr Kartheepan M",
+      role: "Assistant Manager - Service",
       email: "📤 kartheepan@squarenet.in",
       phone: "📞 +91 9789985444",
 

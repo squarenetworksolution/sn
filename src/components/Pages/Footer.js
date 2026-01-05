@@ -160,7 +160,7 @@ const Footer = () => {
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 
 <div>
-  <a className="btn-whats pulse" href="https://api.whatsapp.com/send?phone=919840997427&text=Hello, I came across your website and was wondering if you could kindly offer your services for our project." target="_blank">
+  <a className="btn-whats pulse" href="https://api.whatsapp.com/send?phone=919840987432&text=Hello, I came across your website and was wondering if you could kindly offer your services for our project." target="_blank">
     <i className="fa fa-whatsapp"></i></a>
 </div>
                     </div>
