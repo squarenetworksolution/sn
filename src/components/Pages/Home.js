@@ -393,7 +393,7 @@ const [currentIndex, setCurrentIndex] = useState(0);
               With the experience of handling more than 3800 clients across Tamil Nadu, the Square Network team is adept with the latest technology and has a thorough understanding of customer requirements to provide a world of IT hardware services, solutions and support across different industry verticals.
             </p>
 
-            <a className="btnn" to="">
+            <a className="btnn" href="https://api.whatsapp.com/send?phone=919840987432&text=Hello,%20I%20came%20across%20your%20website%20and%20was%20wondering%20if%20you%20could%20kindly%20offer%20your%20services%20for%20our%20project.">
               Become a Client
             </a>
 

@@ -716,7 +716,11 @@ ol, ul{
 .brand_sec{
   background-color: #000;
 }
-
+.cyb_hed{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .cnt_frm{
   background-image: url('../src/assets/contactus_sn.png');
 background-attachment: fixed;

@@ -10,17 +10,22 @@ const Cybersecuritysolutions = () => {
        <section className='container'>
                        <div className='row'>
        
-                           <div className='col-md-6'>
+                           <div className='col-md-6 d-flex'>
+                            
+                            <div className='cyb_hed'>
+
                                <h3>
                                Cyber Security Solutions - Protecting Your Digital Infrastructure</h3>
                                <p>
                                At Square Network Solutions, we provide advanced cyber security solutions to safeguard your business from evolving cyber threats. Our comprehensive security services help businesses prevent attacks, detect vulnerabilities, and respond to cyber threats effectively.
                                </p>
+                            </div>
+
                            </div>
        
                            <div className='col-md-6'>
        
-                               <img src={Cybersecuritysolution} className="" alt="switches_squarenetwork" />
+                               <img style={{ borderRadius: "10px" }} src={Cybersecuritysolution} className="" alt="switches_squarenetwork" />
        
                            </div>
                        </div>

@@ -152,13 +152,14 @@ export const Contact = () => {
             </>
           )}
 
-          <label style={{ fontWeight: "bold" }}>Your Message:</label>
+          <label style={{fontWeight: "bold" }}>Your Message:</label>
           <textarea
             placeholder="Enter your message..."
             value={userMessage}
             onChange={(e) => setUserMessage(e.target.value)}
             style={{ width: "100%", padding: "10px", margin: "5px 0", borderRadius: "5px", border: "1px solid #ccc", minHeight: "100px" }}
           />
+          <label style={{ color:"#061bbeff",fontSize:"15px",fontWeight: "700" }}>Note: Please fill in all the required fields with valid information. The Send option will be enabled once the form is complete.</label>
 
           {whatsappContact && (
             <button

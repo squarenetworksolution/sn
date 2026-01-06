@@ -14,13 +14,16 @@ const Networkingsolutions = () => {
             <section className='container'>
                 <div className='row'>
 
-                    <div className='col-md-6'>
+                    <div className='col-md-6 d-flex'>
+                        <div className='cyb_hed'>
                         <h3>
                             Empowering Connectivity with Cutting-Edge Networking Solutions
                         </h3>
                         <p>
                             At Square Network Solutions, we specialize in delivering comprehensive, secure, and scalable networking solutions that cater to businesses of all sizes. With over two decades of expertise, we ensure seamless connectivity, enhanced network performance, and robust security for your IT infrastructure.
                         </p>
+                        </div>
+
                     </div>
 
                     <div className='col-md-6'>

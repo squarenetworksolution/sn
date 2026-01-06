@@ -8,18 +8,21 @@ const Datacentersolution = () => {
             <section className='container'>
                 <div className='row'>
 
-                    <div className='col-md-6'>
+                    <div className='col-md-6 d-flex'>
+                        <div className='cyb_hed'>
                         <h3>
                             Data Center Solutions - Scalable, Secure & High-Performance Infrastructure
                         </h3>
                         <p>
-                            At Square Network Solutions, we provide robust, scalable, and secure Data Center Solutions tailored to meet the demands of modern businesses. Our solutions ensure high availability, efficiency, and security while reducing operational costs. Whether you need on-premise, cloud, or hybrid data center services, we have the expertise to design, implement, and manage your infrastructure.
+                            At Square Network Solutio
+                            ns, we provide robust, scalable, and secure Data Center Solutions tailored to meet the demands of modern businesses. Our solutions ensure high availability, efficiency, and security while reducing operational costs. Whether you need on-premise, cloud, or hybrid data center services, we have the expertise to design, implement, and manage your infrastructure.
                         </p>
+                        </div>
                     </div>
 
                     <div className='col-md-6'>
 
-                        <img src={datacenter} className="" alt="Itmanagedservices" />
+                        <img style={{ borderRadius: "10px" }} src={datacenter} className="" alt="Itmanagedservices" />
 
                     </div>
                 </div>

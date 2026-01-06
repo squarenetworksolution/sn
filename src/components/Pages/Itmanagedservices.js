@@ -10,18 +10,22 @@ const Itmanagedservices = () => {
             <section className='container'>
                 <div className='row'>
 
-                    <div className='col-md-6'>
+                    <div className='col-md-6 d-flex'>
+                        
+                        <div className='cyb_hed'>
+
                         <h3>
                             IT Managed Services - Optimize & Secure Your IT Infrastructure
                         </h3>
                         <p>
                             At Square Network Solutions, we offer end-to-end IT Managed Services that help businesses streamline operations, enhance security, and reduce IT costs. Our team of experts ensures your IT infrastructure remains secure, efficient, and up to date, so you can focus on your core business
                         </p>
+                        </div>
                     </div>
 
                     <div className='col-md-6'>
 
-                        <img src={ Itmanaged } className="" alt="Itmanagedservices" />
+                        <img style={{borderRadius: "10px"}} src={ Itmanaged } className="" alt="Itmanagedservices" />
 
                     </div>
                 </div>
