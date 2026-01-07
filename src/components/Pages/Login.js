@@ -6,10 +6,10 @@ const Login = () => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const { loginAsAdmin } = useAdmin();
-  const navigate = useNavigate();
+  const navigate = useNavigate ();
 
   const handleLogin = () => {
-    loginAsAdmin(username, password);
+    loginAsAdmin(username,password);
     navigate("/upload");
   };
 

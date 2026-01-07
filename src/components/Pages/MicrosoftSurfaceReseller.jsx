@@ -5,6 +5,34 @@ const MicrosoftSurfaceReseller = () => {
   return (
     <>
     <Helmet>
+
+        <script type="application/ld+json">
+  {JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.squarenet.in/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Microsoft Solutions",
+        "item": "https://www.squarenet.in/microsoft-solutions"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Microsoft Surface Authorized Reseller in India",
+        "item": "https://www.squarenet.in/microsoft-surface-authorized-reseller-india"
+      }
+    ]
+  })}
+</script>
+
   <title>
     Microsoft Surface Authorized Reseller in India | Square Network Solutions
   </title>

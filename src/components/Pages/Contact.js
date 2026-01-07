@@ -84,7 +84,7 @@ export const Contact = () => {
     <Fragment>
       
       <section className="container cnt_hder">
-        <h2 style={{margin:0}}><b>CONTACT</b></h2>
+        <h2 style={{margin:0,textAlign:"center"}}><b>CONTACT</b></h2>
         <p className="text-center">Our team will happily assist you with ideal recommendations for your needs.</p>
       </section>
 
