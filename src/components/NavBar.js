@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import "./NavBar.css";
 import { CodeIcon, HamburgetMenuClose, HamburgetMenuOpen } from "./Icons";
-import logo from "../assets/square_network_logo.png";
+import logo from "../assets/square-network-surface-reseller.png";
 import mobile_logo from "../assets/logo_squarenetwork.jpg";
 import {
   CButton,
@@ -43,8 +43,8 @@ function NavBar() {
         <div className="nav-container">
 
           <NavLink exact to="/" className="nav-logo">
-             <img  src={logo} className="square_logo" alt="logo" />
-             <img  src={mobile_logo} className="mobile_logo" alt="logo" />
+             <img  src={logo} className="square_logo" alt="Square Network Solutions Microsoft Surface Authorized Reseller" />
+             <img  src={mobile_logo} className="mobile_logo" alt="Square Network Solutions Microsoft Surface Authorized Reseller" />
 
             {/* <span>Square Network</span> */}
           </NavLink>

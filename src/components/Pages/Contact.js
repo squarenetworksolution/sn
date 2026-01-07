@@ -80,7 +80,9 @@ export const Contact = () => {
   };
 
   return (
+
     <Fragment>
+      
       <section className="container cnt_hder">
         <h2 style={{margin:0}}><b>CONTACT</b></h2>
         <p className="text-center">Our team will happily assist you with ideal recommendations for your needs.</p>
@@ -91,6 +93,7 @@ export const Contact = () => {
           <h2 style={{ textAlign: "center", fontSize: "40px", fontWeight: "bold", color: "#333" }}>Contact Form</h2>
 
           <label style={{ fontWeight: "bold" }}>Your Name:</label>
+         
           <input
             type="text"
             placeholder="Enter your name"
@@ -100,6 +103,7 @@ export const Contact = () => {
           />
 
           <label style={{ fontWeight: "bold" }}>Your Email:</label>
+         
           <input
             type="email"
             placeholder="Enter your email"
@@ -114,6 +118,7 @@ export const Contact = () => {
             value={category}
             style={{ width: "100%", padding: "10px", margin: "5px 0", borderRadius: "5px", border: "1px solid #ccc" }}
           >
+
             <option value="">-- Select a Category --</option>
             <option value="Service">Service</option>
             <option value="Buy Product">Buy Product</option>
@@ -137,6 +142,7 @@ export const Contact = () => {
           {selectedState && (
             <>
               <label style={{ fontWeight: "bold" }}>Select Subdivision:</label>
+              
               <select
                 onChange={handleSubdivisionChange}
                 value={selectedSubdivision}

@@ -56,7 +56,7 @@ import panasonic from "../../assets/logo/panasonic.png";
 import redhat from "../../assets/logo/redhat.png";
 import samsung from "../../assets/logo/samsung.png";
 import seqrite from "../../assets/logo/seqrite.png";
-
+import { Helmet } from "react-helmet-async";
 
 
 // import home from "../../assets/home2.jpg";
@@ -199,6 +199,23 @@ const [currentIndex, setCurrentIndex] = useState(0);
   return (
 
     <Fragment>
+<Helmet>
+  <title>
+    IT Infrastructure & Networking Solutions Company in India | Square Network Solutions
+  </title>
+
+  <meta
+    name="description"
+    content="Square Network Solutions is a leading IT infrastructure and networking solutions company in India offering enterprise networking, servers, cybersecurity, cloud and data center solutions."
+  />
+
+  <meta
+    name="keywords"
+    content="it infrastructure company india, networking solutions provider, enterprise it solutions, data center networking, cybersecurity solutions, square network solutions"
+  />
+
+  <link rel="canonical" href="https://squarenet.in/" />
+</Helmet>
 
 
       <div id='particle-network-animation'>
@@ -374,6 +391,10 @@ const [currentIndex, setCurrentIndex] = useState(0);
 </div>
 </section> */}
 
+<h1 className="seo-h1" style={{ display: "none" }}>
+  IT Infrastructure & Networking Solutions Company in India
+</h1>
+
 <ScrollFade>
   
       <section className="container ">
@@ -382,8 +403,8 @@ const [currentIndex, setCurrentIndex] = useState(0);
             <p className="">
               Welcome To Square Network Solutions
             </p>
-            <h3 className="heading_top drop-out fade-in-down">
-              We are always Faster & reliable </h3>
+            <h2 className="heading_top drop-out fade-in-down">
+              We are always Faster & reliable </h2>
 
             <p className="heading_top_p">
               Square Network is your one-stop solution for all your IT infrastructure servicing needs. We are a one-of-its-kind organization that services consumers, retailers, SMBs and enterprise customers.
@@ -1050,6 +1071,12 @@ const [currentIndex, setCurrentIndex] = useState(0);
           </div>
         </div>
       </div> */}
+<a
+  href="/microsoft-surface-authorized-reseller-india"
+  style={{ color: "#0067b8", textDecoration: "none",textAlign:"center",width:"100%",display:"block" }}
+>
+  Microsoft Surface Authorized Reseller in India
+</a>
 
     </Fragment>
 
