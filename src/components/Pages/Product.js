@@ -10,6 +10,20 @@ import networkattachedstorage from "../../assets/nework_attached_storage.png";
 import serverdcs from "../../assets/data_center_solution.png";
 import Surveillance from "../../assets/security_surveillance_solution.jpg";
 import collaboration from "../../assets/collaboration.jpg";
+import resale from "../../assets/Microsoft-Surface-Authorized-Reseller-in-India-surface-laptop.png"
+import l1 from "../../assets/lap-microsoft-surface-authorized-reseller-folding-laptop.png";
+import l2 from "../../assets/lap-microsoft-surface-authorized-reseller-laptop.png";
+import l3 from "../../assets/lap-microsoft-surface-authorized-reseller-pen-surface-laptop.png";
+import l4 from "../../assets/lap-microsoft-surface-authorized-reseller-snapdragon.png";
+import l5 from "../../assets/lap-microsoft-surface-authorized-reseller-tab.png";
+import l6 from "../../assets/lap-microsoft-surface-authorized-reseller.png";
+import posterImg from "../../assets/microsoft-surface-authorized-reseller-tamilnadu-square-network.avif";
+import surfaceVideo from "../../assets/microsoft-surface-authorized-reseller-tamilnadu.mp4";
+import l7 from "../../assets/new-lap-microsoft-surface-authorized-reseller-chennai.png";
+import l8 from "../../assets/new-lap-microsoft-surface-authorized-reseller-guindy.png";
+import l9 from "../../assets/new-lap-microsoft-surface-authorized-reseller-india.png";
+import l10 from "../../assets/new-lap-microsoft-surface-authorized-reseller-online.png";
+import l11 from "../../assets/new-lap-microsoft-surface-authorized-reseller-tamilnadu.png";
 
 
 
@@ -102,6 +116,14 @@ const Product = () => {
                 className={`b-nav-tab ${activeTab === "enterprise" ? "active" : ""}`}
               >
                 Collaboration 
+              </button>
+            </div>
+             <div>
+              <button
+                onClick={() => setActiveTab("microsoft")}
+                className={`b-nav-tab ${activeTab === "microsoft" ? "active" : ""}`}
+              >
+                Microsoft Surface Laptop 
               </button>
             </div>
 
@@ -1762,6 +1784,530 @@ Intelligent call routing and auto-attendant features.
                       </li>
 
                   </ul>
+                </div>
+              </div>
+
+            </div>
+
+             <div id="cloud" className={`b-tab ${activeTab === "microsoft" ? "active" : ""}`}>
+              <div className="row">
+                <div className="col-md justify_content_center">
+                  <div>
+                 
+                        <video  className="plp-hero-media"
+                   autoPlay
+                   muted
+                   loop
+                   playsInline
+                    aria-label="Microsoft Surface Authorized Reseller Reseller tamil nadu"
+                   title="Microsoft Surface Authorized Reseller tamil nadu"
+                   poster={posterImg}
+                 >
+                   <source src={surfaceVideo}  type="video/mp4" />
+                 </video>
+                 
+                  </div>
+
+ <section className="container">
+
+<div className="row">
+
+
+<div className="col-md-6"style={{display:"flex",flexDirection:"column",justifyContent:"center"}}>
+  <h1>Microsoft Surface Authorized Reseller in India</h1>
+  
+  <p>
+     Square Network Solutions Pvt Ltd  
+ is an officially  authorized Microsoft Surface   Devices Reseller, recognized and listed on Microsoft’s global partner directory in India.
+ 
+</p>
+
+
+ <p>
+  We provide genuine Microsoft Surface devices for enterprises, educational institutions, and government organizations, including consultation, bulk procurement, deployment, and post-sales support.
+ </p>
+
+
+</div>
+
+<div className="col-md-6">
+ <img className="" src={resale} alt="Microsoft Surface Authorized Reseller in India" />
+</div>
+
+</div>
+
+<div className="row">
+        <div className="col-md-4 col-sm-6">
+          <div className="card-wrapper">
+            <div className="card-box">
+              <div className="card">
+                <div className="overlay">
+                  <div className="profile-img">
+                     <img className="" src={l1} alt="Microsoft Surface Authorized Reseller in India" />
+
+                  </div>
+
+                  <div className="card-body">
+                    <h2>Microsoft Surface</h2>
+                    <p>Laptop ZPX 00048</p>
+                  </div>
+{/* 
+                  <div className="social-icon">
+                    <span><i className="fa-brands fa-facebook" /></span>
+                    <span><i className="fa-brands fa-whatsapp" /></span>
+                    <span><i className="fa-brands fa-linkedin" /></span>
+                    <span><i className="fa-brands fa-instagram" /></span>
+                  </div> */}
+
+                 <div className="button-box">
+  <a href="tel:+919840987432" className="btn-wrap">
+    Call Now
+  </a>
+</div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="col-md-4 col-sm-6">
+          <div className="card-wrapper">
+            <div className="card-box">
+              <div className="card">
+                <div className="overlay">
+                  <div className="profile-img">
+                     <img className="" src={l2} alt="Microsoft Surface Authorized Reseller in India" />
+
+                  </div>
+
+                  <div className="card-body">
+                    <h2>Microsoft Surface</h2>
+                    <p>Laptop 7 - EP2 21101</p>
+                  </div>
+{/* 
+                  <div className="social-icon">
+                    <span><i className="fa-brands fa-facebook" /></span>
+                    <span><i className="fa-brands fa-whatsapp" /></span>
+                    <span><i className="fa-brands fa-linkedin" /></span>
+                    <span><i className="fa-brands fa-instagram" /></span>
+                  </div> */}
+
+                   <div className="button-box">
+  <a href="tel:+919840987432" className="btn-wrap">
+    Call Now
+  </a>
+</div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+           <div className="col-md-4 col-sm-6">
+          <div className="card-wrapper">
+            <div className="card-box">
+              <div className="card">
+                <div className="overlay">
+                  <div className="profile-img">
+                     <img className="" src={l3} alt="Microsoft Surface Authorized Reseller in India" />
+
+                  </div>
+
+                  <div className="card-body">
+                    <h2>Microsoft Surface</h2>
+                    <p>Pro 12 - EP2 41579</p>
+                  </div>
+{/* 
+                  <div className="social-icon">
+                    <span><i className="fa-brands fa-facebook" /></span>
+                    <span><i className="fa-brands fa-whatsapp" /></span>
+                    <span><i className="fa-brands fa-linkedin" /></span>
+                    <span><i className="fa-brands fa-instagram" /></span>
+                  </div> */}
+
+            <div className="button-box">
+  <a href="tel:+919840987432" className="btn-wrap">
+    Call Now
+  </a>
+</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="col-md-4 col-sm-6">
+          <div className="card-wrapper">
+            <div className="card-box">
+              <div className="card">
+                <div className="overlay">
+                  <div className="profile-img">
+                     <img className="" src={l4} alt="Microsoft Surface Authorized Reseller in India" />
+
+                  </div>
+
+                  <div className="card-body">
+                    <h2>Microsoft Surface</h2>
+                    <p>Pro 12 - EP2 27213</p>
+                  </div>
+{/* 
+                  <div className="social-icon">
+                    <span><i className="fa-brands fa-facebook" /></span>
+                    <span><i className="fa-brands fa-whatsapp" /></span>
+                    <span><i className="fa-brands fa-linkedin" /></span>
+                    <span><i className="fa-brands fa-instagram" /></span>
+                  </div> */}
+
+                   <div className="button-box">
+  <a href="tel:+919840987432" className="btn-wrap">
+    Call Now
+  </a>
+</div>
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="col-md-4 col-sm-6">
+          <div className="card-wrapper">
+            <div className="card-box">
+              <div className="card">
+                <div className="overlay">
+                  <div className="profile-img">
+                     <img className="" src={l5} alt="Microsoft Surface Authorized Reseller in India" />
+
+                  </div>
+
+                  <div className="card-body">
+                    <h2>Microsoft Surface</h2>
+                    <p>Laptop 7 - EP2 22911 </p>
+                  </div>
+{/* 
+                  <div className="social-icon">
+                    <span><i className="fa-brands fa-facebook" /></span>
+                    <span><i className="fa-brands fa-whatsapp" /></span>
+                    <span><i className="fa-brands fa-linkedin" /></span>
+                    <span><i className="fa-brands fa-instagram" /></span>
+                  </div> */}
+
+                 <div className="button-box">
+  <a href="tel:+919840987432" className="btn-wrap">
+    Call Now
+  </a>
+</div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="col-md-4 col-sm-6">
+          <div className="card-wrapper">
+            <div className="card-box">
+              <div className="card">
+                <div className="overlay">
+                  <div className="profile-img">
+                     <img className="" src={l6} alt="Microsoft Surface Authorized Reseller in India" />
+
+                  </div>
+
+                  <div className="card-body">
+                    <h2>Microsoft Surface</h2>
+                    <p>Pro 7 - EP2 21101</p>
+                  </div>
+{/* 
+                  <div className="social-icon">
+                    <span><i className="fa-brands fa-facebook" /></span>
+                    <span><i className="fa-brands fa-whatsapp" /></span>
+                    <span><i className="fa-brands fa-linkedin" /></span>
+                    <span><i className="fa-brands fa-instagram" /></span>
+                  </div> */}
+
+                   <div className="button-box">
+  <a href="tel:+919840987432" className="btn-wrap">
+    Call Now
+  </a>
+</div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+          <div className="col-md-4 col-sm-6">
+          <div className="card-wrapper">
+            <div className="card-box">
+              <div className="card">
+                <div className="overlay">
+                  <div className="profile-img">
+                     <img className="" src={l7} alt="Microsoft Surface Authorized Reseller in India" />
+
+                  </div>
+
+                  <div className="card-body">
+
+                    <h2>Microsoft Surface</h2>
+                    <p>Pro 10 - ZDW 00032</p>
+
+                  </div>
+{/* 
+                  <div className="social-icon">
+                    <span><i className="fa-brands fa-facebook" /></span>
+                    <span><i className="fa-brands fa-whatsapp" /></span>
+                    <span><i className="fa-brands fa-linkedin" /></span>
+                    <span><i className="fa-brands fa-instagram" /></span>
+                  </div> */}
+
+                  <div className="button-box">
+  <a href="tel:+919840987432" className="btn-wrap">
+    Call Now
+  </a>
+</div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+          <div className="col-md-4 col-sm-6">
+          <div className="card-wrapper">
+            <div className="card-box">
+              <div className="card">
+                <div className="overlay">
+                  <div className="profile-img">
+                     <img className="" src={l8} alt="Microsoft Surface Authorized Reseller in India" />
+
+                  </div>
+
+                  <div className="card-body">
+                    <h2>Microsoft Surface</h2>
+                    <p>Laptop ZLQ 00048</p>
+                  </div>
+{/* 
+                  <div className="social-icon">
+                    <span><i className="fa-brands fa-facebook" /></span>
+                    <span><i className="fa-brands fa-whatsapp" /></span>
+                    <span><i className="fa-brands fa-linkedin" /></span>
+                    <span><i className="fa-brands fa-instagram" /></span>
+                  </div> */}
+
+                   <div className="button-box">
+  <a href="tel:+919840987432" className="btn-wrap">
+    Call Now
+  </a>
+</div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+          <div className="col-md-4 col-sm-6">
+          <div className="card-wrapper">
+            <div className="card-box">
+              <div className="card">
+                <div className="overlay">
+                  <div className="profile-img">
+                     <img className="" src={l9} alt="Microsoft Surface Authorized Reseller in India" />
+
+                  </div>
+
+                  <div className="card-body">
+                    <h2>Microsoft Surface</h2>
+                    <p>Laptop ZLU 00048</p>
+                  </div>
+{/* 
+                  <div className="social-icon">
+                    <span><i className="fa-brands fa-facebook" /></span>
+                    <span><i className="fa-brands fa-whatsapp" /></span>
+                    <span><i className="fa-brands fa-linkedin" /></span>
+                    <span><i className="fa-brands fa-instagram" /></span>
+                  </div> */}
+
+                   <div className="button-box">
+  <a href="tel:+919840987432" className="btn-wrap">
+    Call Now
+  </a>
+</div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+         <div className="col-md-4 col-sm-6">
+          <div className="card-wrapper">
+            <div className="card-box">
+              <div className="card">
+                <div className="overlay">
+                  <div className="profile-img">
+                     <img className="" src={l8} alt="Microsoft Surface Authorized Reseller in India" />
+
+                  </div>
+
+                  <div className="card-body">
+                    <h2>Microsoft Surface</h2>
+                    <p>Pro 12 - EP2 27196</p>
+                  </div>
+{/* 
+                  <div className="social-icon">
+                    <span><i className="fa-brands fa-facebook" /></span>
+                    <span><i className="fa-brands fa-whatsapp" /></span>
+                    <span><i className="fa-brands fa-linkedin" /></span>
+                    <span><i className="fa-brands fa-instagram" /></span>
+                  </div> */}
+
+                   <div className="button-box">
+  <a href="tel:+919840987432" className="btn-wrap">
+    Call Now
+  </a>
+</div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+          <div className="col-md-4 col-sm-6">
+          <div className="card-wrapper">
+            <div className="card-box">
+              <div className="card">
+                <div className="overlay">
+                  <div className="profile-img">
+                     <img className="" src={l10} alt="Microsoft Surface Authorized Reseller in India" />
+
+                  </div>
+
+                  <div className="card-body">
+                    <h2>Microsoft Surface</h2>
+                    <p>Pro 9 - QIA 00031</p>
+                  </div>
+{/* 
+                  <div className="social-icon">
+                    <span><i className="fa-brands fa-facebook" /></span>
+                    <span><i className="fa-brands fa-whatsapp" /></span>
+                    <span><i className="fa-brands fa-linkedin" /></span>
+                    <span><i className="fa-brands fa-instagram" /></span>
+                  </div> */}
+
+                 <div className="button-box">
+  <a href="tel:+919840987432" className="btn-wrap">
+    Call Now
+  </a>
+</div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+          <div className="col-md-4 col-sm-6">
+          <div className="card-wrapper">
+            <div className="card-box">
+              <div className="card">
+                <div className="overlay">
+                  <div className="profile-img">
+                     <img className="" src={l11} alt="Microsoft Surface Authorized Reseller in India" />
+
+                  </div>
+
+                  <div className="card-body">
+                    <h2>Microsoft Surface</h2>
+                    <p>Laptop ZLQ 00048</p>
+                  </div>
+{/* 
+                  <div className="social-icon">
+                    <span><i className="fa-brands fa-facebook" /></span>
+                    <span><i className="fa-brands fa-whatsapp" /></span>
+                    <span><i className="fa-brands fa-linkedin" /></span>
+                    <span><i className="fa-brands fa-instagram" /></span>
+                  </div> */}
+
+                   <div className="button-box">
+  <a href="tel:+919840987432" className="btn-wrap">
+    Call Now
+  </a>
+</div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+     
+
+</div>
+
+<div className="row">
+  <div className="col-md-6">
+    <h2>Microsoft Surface Devices for Business & Enterprise</h2>
+  <ul>
+    <li>Microsoft Surface Pro for business professionals</li>
+    <li>Microsoft Surface Laptop for enterprise users</li>
+    <li>Microsoft Surface Hub for meeting rooms & collaboration</li>
+    <li>Bulk Surface device procurement</li>
+    <li>Surface deployment, imaging & Intune integration</li>
+</ul>
+
+</div>
+
+  <div className="col-md-6" style={{display:"flex",flexDirection:"column",justifyContent:"center"}}>
+ <h2>Why Choose Square Network Solutions</h2>
+  <ul>
+    <li><b>Official Microsoft authorized partner</b></li>
+    <li>Enterprise IT & infrastructure expertise</li>
+    <li>End-to-end Surface deployment & lifecycle support</li>
+    <li>Trusted by enterprises across South India</li>
+</ul>
+  </div>
+
+<div className="row">
+ 
+ <h2 style={{ fontSize: "24px", marginBottom: "12px" }}>
+          Service Locations
+        </h2>
+
+        <p style={{ marginBottom: "24px" }}>
+          We supply and support Microsoft Surface devices across{" "}
+          <strong>
+
+            Chennai, Bangalore, Hyderabad, Coimbatore, Kochi, Trivandrum
+          </strong>{" "}
+          and other major cities in India.
+        </p>
+
+        <h2 style={{ fontSize: "24px", marginBottom: "12px" }}>
+          Microsoft Authorization
+        </h2>
+
+        <p style={{ marginBottom: "24px" }}>
+          Verify our Microsoft authorization here:{" "}
+          <a
+            href="https://www.microsoft.com/en-in/surface/business/where-to-buy-microsoft-surface"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ color: "#0067b8", textDecoration: "underline" }}
+          >
+            Microsoft Surface Authorized Reseller – Square Network Solutions
+          </a>
+        </p>
+
+</div>
+
+
+
+</div>
+      
+      </section>
+
                 </div>
               </div>
 

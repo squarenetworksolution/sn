@@ -38,7 +38,7 @@ function App() {
     <>
       <Router>
         <NavBar/>
-
+        
         <div className="pages">
           <Routes>
             <Route path="/" element={<Home />} />
@@ -61,7 +61,7 @@ function App() {
             <Route path="/data-center-solution" element={<Datacentersolution/>} />
             <Route path="/our-teams" element={<OurTeams/>} />
             <Route path="/scroll-fade" element={<ScrollFade/>} />
-<Route path="microsoft-surface-authorized-reseller-india" element={<MicrosoftSurfaceReseller/>} />
+<Route path="microsoft-surface-authorized-reseller-tamilnadu" element={<MicrosoftSurfaceReseller/>} />
               
           </Routes>
 

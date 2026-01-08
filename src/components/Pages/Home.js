@@ -1072,10 +1072,10 @@ const [currentIndex, setCurrentIndex] = useState(0);
         </div>
       </div> */}
 <a
-  href="/microsoft-surface-authorized-reseller-india"
+  href="/microsoft-surface-authorized-reseller-tamilnadu"
   style={{ color: "#0067b8", textDecoration: "none",textAlign:"center",width:"100%",display:"block" }}
 >
-  Microsoft Surface Authorized Reseller in India
+  Microsoft Surface Authorized Reseller in Tamil Nadu
 </a>
 
     </Fragment>
