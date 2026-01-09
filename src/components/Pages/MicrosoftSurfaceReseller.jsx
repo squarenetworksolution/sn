@@ -20,6 +20,7 @@ import newsurface from "../../assets/new-surface-laptop-resaller-group.png";
 import mssurfacesquare  from "../../assets/ms-laptop-squarentwork.png";
 
 const MicrosoftSurfaceReseller = () => {
+  
   const FAQItem = ({ question, answer }) => {
     const [open, setOpen] = useState(false);
 

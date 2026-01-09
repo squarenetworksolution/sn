@@ -123,15 +123,13 @@ const [currentIndex, setCurrentIndex] = useState(0);
     const autoSlide = setInterval(nextSlide, 10000); 
     var slide = setInterval(prevSlide, 10000); // 7 seconds delay for each slide
     // 7 seconds delay for each slide
+
     return () => clearInterval(autoSlide,slide); // Cleanup on component unmount
   }, []);
 
   $(document).ready(function () {
-
     $('ul.tabs li').click(function () {
-      
       var tab_id = $(this).attr('data-tab');
-
       $('ul.tabs li').removeClass('current');
       $('.tab-content').removeClass('current');
 
