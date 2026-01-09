@@ -1,3 +1,4 @@
+// import React from 'react'
 // import React from "react";
 import React, { Fragment, useState } from "react";
 
@@ -19,8 +20,8 @@ import l11 from "../../assets/new-lap-microsoft-surface-authorized-reseller-tami
 import newsurface from "../../assets/new-surface-laptop-resaller-group.png";
 import mssurfacesquare  from "../../assets/ms-laptop-squarentwork.png";
 
-const MicrosoftSurfaceReseller = () => {
-
+const MicrosoftSurfacelaptop = () => {
+  
   const FAQItem = ({ question, answer }) => {
     const [open, setOpen] = useState(false);
 
@@ -170,7 +171,7 @@ const MicrosoftSurfaceReseller = () => {
               justifyContent: "center",
             }}
           >
-            <h1>Microsoft Surface Authorized Reseller in Tamil Nadu</h1>
+            <h1>Microsoft Surface Authorized Reseller in India</h1>
 
             <p>
               Square Network Solutions Pvt Ltd is an officially authorized
@@ -777,4 +778,8 @@ const MicrosoftSurfaceReseller = () => {
   );
 };
 
-export default MicrosoftSurfaceReseller;
+ 
+
+ 
+
+export default MicrosoftSurfacelaptop

@@ -1,4 +1,4 @@
-// import React from "react";
+
 import React, { Fragment, useState } from "react";
 
 import { Helmet } from "react-helmet-async";
@@ -19,8 +19,8 @@ import l11 from "../../assets/new-lap-microsoft-surface-authorized-reseller-tami
 import newsurface from "../../assets/new-surface-laptop-resaller-group.png";
 import mssurfacesquare  from "../../assets/ms-laptop-squarentwork.png";
 
-const MicrosoftSurfaceReseller = () => {
-
+const MicrosoftSurfaceLaptopChennai = () => {
+  
   const FAQItem = ({ question, answer }) => {
     const [open, setOpen] = useState(false);
 
@@ -80,13 +80,13 @@ const MicrosoftSurfaceReseller = () => {
         </script>
 
         <title>
-          Microsoft Surface Authorized Reseller in India | Square Network
+          Microsoft Surface Authorized Reseller in Chennai| Square Network
           Solutions
         </title>
 
         <meta
           name="description"
-          content="Square Network Solutions Pvt Ltd is an authorized Microsoft Surface reseller in India offering Surface laptops, Surface Pro, Surface Hub, enterprise deployment and support."
+          content="Square Network Solutions Pvt Ltd is an authorized Microsoft Surface reseller in Chennaioffering Surface laptops, Surface Pro, Surface Hub, enterprise deployment and support."
         />
 
         <link
@@ -131,13 +131,13 @@ const MicrosoftSurfaceReseller = () => {
 
       <Helmet>
         <title>
-          Microsoft Surface Authorized Reseller in India | Square Network
+          Microsoft Surface Authorized Reseller in Chennai| Square Network
           Solutions
         </title>
 
         <meta
           name="description"
-          content="Square Network Solutions Pvt Ltd is an authorized Microsoft Surface reseller in India offering Surface laptops, Surface Pro, Surface Hub, enterprise deployment and support."
+          content="Square Network Solutions Pvt Ltd is an authorized Microsoft Surface reseller in Chennaioffering Surface laptops, Surface Pro, Surface Hub, enterprise deployment and support."
         />
 
         <link
@@ -153,8 +153,8 @@ const MicrosoftSurfaceReseller = () => {
           muted
           loop
           playsInline
-          aria-label="Microsoft Surface Authorized Reseller Reseller tamil nadu"
-          title="Microsoft Surface Authorized Reseller tamil nadu"
+          aria-label="Microsoft Surface Authorized Reseller Reseller Chennai"
+          title="Microsoft Surface Authorized Reseller Chennai"
           poster={posterImg}
         >
           <source src={surfaceVideo} type="video/mp4" />
@@ -170,7 +170,8 @@ const MicrosoftSurfaceReseller = () => {
               justifyContent: "center",
             }}
           >
-            <h1>Microsoft Surface Authorized Reseller in Tamil Nadu</h1>
+            {/* <h1 >Microsoft Surface Authorized Reseller in India</h1> */}
+            <h1>Microsoft Surface Laptop in Chennai</h1>
 
             <p>
               Square Network Solutions Pvt Ltd is an officially authorized
@@ -765,7 +766,7 @@ const MicrosoftSurfaceReseller = () => {
 
         <FAQItem
           question="Do you provide onsite support?"
-          answer="Yes. We provide onsite support and implementation services across South India including Chennai, Bangalore, and Hyderabad."
+          answer="Yes. We provide onsite support and implementation services across South Chennai including Chennai, Bangalore, and Hyderabad."
         />
 
         <FAQItem
@@ -777,4 +778,8 @@ const MicrosoftSurfaceReseller = () => {
   );
 };
 
-export default MicrosoftSurfaceReseller;
+ 
+
+ 
+
+export default MicrosoftSurfaceLaptopChennai

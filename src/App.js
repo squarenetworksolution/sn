@@ -25,6 +25,8 @@ import Datacentersolution from "./components/Pages/Datacentersolution";
 import OurTeams from "./components/Pages/OurTeams";
 import ScrollFade from "./components/ScrollFade";
 import MicrosoftSurfaceReseller from "./components/Pages/MicrosoftSurfaceReseller";
+import MicrosoftSurfacelaptop from "./components/Pages/MicrosoftSurfacelaptop";
+import MicrosoftSurfaceLaptopChennai from "./components/Pages/MicrosoftSurfaceLaptopChennai";
 
 
 // import { Product } from "./components/Pages/Product";
@@ -37,13 +39,13 @@ function App() {
   return (
     <>
       <Router>
+
         <NavBar/>
         
         <div className="pages">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/home" element={<Home />} />
-
             {/* <Route path="/animation" element={<Animation/>} /> */}
             <Route path="/about" element={<About />}/>
             <Route path="/blog" element={<Blog />}/>
@@ -61,11 +63,12 @@ function App() {
              <Route path="/" element={<Productservers/>} />
              <Route path="/product-cable" element={<Productcables/>} />           
             <Route path="/data-center-solution" element={<Datacentersolution/>} />
+            <Route path="microsoft-surface-laptop" element={<MicrosoftSurfacelaptop/>}/>
 <Route path="/our-teams" element={<OurTeams/>} />
 <Route path="/scroll-fade" element={<ScrollFade/>} />
 <Route path="microsoft-surface-authorized-reseller" element={<MicrosoftSurfaceReseller/>} />
 <Route path="microsoft-surface-authorized-reseller-tamilnadu" element={<MicrosoftSurfaceReseller/>} />
-<Route path="microsoft-surface-authorized-reseller-chennai" element={<MicrosoftSurfaceReseller/>} />
+<Route path="microsoft-surface-laptop-chennai" element={<MicrosoftSurfaceLaptopChennai/>} />
 <Route path="microsoft-surface-authorized-reseller-royapettah" element={<MicrosoftSurfaceReseller/>} />
 <Route path="microsoft-surface-authorized-reseller-tnager" element={<MicrosoftSurfaceReseller/>} />
 <Route path="microsoft-surface-authorized-reseller-nungambakkam" element={<MicrosoftSurfaceReseller/>} />
@@ -99,6 +102,7 @@ function App() {
 <Route path="microsoft-surface-authorized-reseller-royapuram" element={<MicrosoftSurfaceReseller/>} />
 <Route path="microsoft-surface-authorized-reseller-washermanpet" element={<MicrosoftSurfaceReseller/>} />
 <Route path="microsoft-surface-authorized-reseller-tondiarpet" element={<MicrosoftSurfaceReseller/>} />
+<Route path="microsoft-surface-chennai" element={<MicrosoftSurfaceReseller/>} />
          
           </Routes>
 
