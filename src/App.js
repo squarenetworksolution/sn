@@ -59,10 +59,45 @@ function App() {
              <Route path="/" element={<Productservers/>} />
              <Route path="/product-cable" element={<Productcables/>} />           
             <Route path="/data-center-solution" element={<Datacentersolution/>} />
-            <Route path="/our-teams" element={<OurTeams/>} />
-            <Route path="/scroll-fade" element={<ScrollFade/>} />
+<Route path="/our-teams" element={<OurTeams/>} />
+<Route path="/scroll-fade" element={<ScrollFade/>} />
+<Route path="microsoft-surface-authorized-reseller" element={<MicrosoftSurfaceReseller/>} />
 <Route path="microsoft-surface-authorized-reseller-tamilnadu" element={<MicrosoftSurfaceReseller/>} />
-              
+<Route path="microsoft-surface-authorized-reseller-chennai" element={<MicrosoftSurfaceReseller/>} />
+<Route path="microsoft-surface-authorized-reseller-royapettah" element={<MicrosoftSurfaceReseller/>} />
+<Route path="microsoft-surface-authorized-reseller-tnager" element={<MicrosoftSurfaceReseller/>} />
+<Route path="microsoft-surface-authorized-reseller-nungambakkam" element={<MicrosoftSurfaceReseller/>} />
+<Route path="microsoft-surface-authorized-reseller-royapettah" element={<MicrosoftSurfaceReseller/>} />
+<Route path="microsoft-surface-authorized-reseller-annasalai" element={<MicrosoftSurfaceReseller/>} />
+<Route path="microsoft-surface-authorized-reseller-guindy" element={<MicrosoftSurfaceReseller/>} />
+<Route path="microsoft-surface-authorized-reseller-omr" element={<MicrosoftSurfaceReseller/>} />
+<Route path="microsoft-surface-authorized-reseller-sholinganallur" element={<MicrosoftSurfaceReseller/>} />
+<Route path="microsoft-surface-authorized-reseller-Siruseri" element={<MicrosoftSurfaceReseller/>} />
+<Route path="microsoft-surface-authorized-reseller-taramani" element={<MicrosoftSurfaceReseller/>} />
+<Route path="microsoft-surface-authorized-reseller-adyar" element={<MicrosoftSurfaceReseller/>} />
+<Route path="microsoft-surface-authorized-reseller-besantnagar" element={<MicrosoftSurfaceReseller/>} />
+<Route path="microsoft-surface-authorized-reseller-annanagar" element={<MicrosoftSurfaceReseller/>} />
+<Route path="microsoft-surface-authorized-reseller-chennaicentral" element={<MicrosoftSurfaceReseller/>} />
+<Route path="microsoft-surface-authorized-reseller-egmore" element={<MicrosoftSurfaceReseller/>} />
+<Route path="microsoft-surface-authorized-reseller-koyambedu" element={<MicrosoftSurfaceReseller/>} />
+<Route path="microsoft-surface-authorized-reseller-chennaiinternationalairport" element={<MicrosoftSurfaceReseller/>} />
+<Route path="microsoft-surface-authorized-reseller-marinabeach" element={<MicrosoftSurfaceReseller/>} />
+<Route path="microsoft-surface-authorized-reseller-mylapore" element={<MicrosoftSurfaceReseller/>} />
+<Route path="microsoft-surface-authorized-reseller-triplicane" element={<MicrosoftSurfaceReseller/>} />
+<Route path="microsoft-surface-authorized-reseller-Royapettah" element={<MicrosoftSurfaceReseller/>} />
+<Route path="microsoft-surface-authorized-reseller-ambattur" element={<MicrosoftSurfaceReseller/>} />
+<Route path="microsoft-surface-authorized-reseller-porur" element={<MicrosoftSurfaceReseller/>} />
+<Route path="microsoft-surface-authorized-reseller-Perungudi" element={<MicrosoftSurfaceReseller/>} />
+<Route path="microsoft-surface-authorized-reseller-navalur" element={<MicrosoftSurfaceReseller/>} />
+<Route path="microsoft-surface-authorized-reseller-velachery" element={<MicrosoftSurfaceReseller/>} />
+<Route path="microsoft-surface-authorized-reseller-tambaram" element={<MicrosoftSurfaceReseller/>} />
+<Route path="microsoft-surface-authorized-reseller-medavakkam" element={<MicrosoftSurfaceReseller/>} />
+<Route path="microsoft-surface-authorized-reseller-koyambedu" element={<MicrosoftSurfaceReseller/>} />
+<Route path="microsoft-surface-authorized-reseller-poonamallee" element={<MicrosoftSurfaceReseller/>} />
+<Route path="microsoft-surface-authorized-reseller-royapuram" element={<MicrosoftSurfaceReseller/>} />
+<Route path="microsoft-surface-authorized-reseller-washermanpet" element={<MicrosoftSurfaceReseller/>} />
+<Route path="microsoft-surface-authorized-reseller-tondiarpet" element={<MicrosoftSurfaceReseller/>} />
+         
           </Routes>
 
         </div>
