@@ -1,7 +1,6 @@
-
-import React, { Fragment, useState } from "react";
-
+import React, { useState } from "react";
 import { Helmet } from "react-helmet-async";
+
 import resale from "../../assets/Microsoft-Surface-Authorized-Reseller-in-India-surface-laptop.png";
 import l1 from "../../assets/lap-microsoft-surface-authorized-reseller-folding-laptop.png";
 import l2 from "../../assets/lap-microsoft-surface-authorized-reseller-laptop.png";
@@ -9,18 +8,18 @@ import l3 from "../../assets/lap-microsoft-surface-authorized-reseller-pen-surfa
 import l4 from "../../assets/lap-microsoft-surface-authorized-reseller-snapdragon.png";
 import l5 from "../../assets/lap-microsoft-surface-authorized-reseller-tab.png";
 import l6 from "../../assets/lap-microsoft-surface-authorized-reseller.png";
-import posterImg from "../../assets/microsoft-surface-authorized-reseller-tamilnadu-square-network.avif";
-import surfaceVideo from "../../assets/microsoft-surface-authorized-reseller-tamilnadu.mp4";
 import l7 from "../../assets/new-lap-microsoft-surface-authorized-reseller-chennai.png";
 import l8 from "../../assets/new-lap-microsoft-surface-authorized-reseller-guindy.png";
 import l9 from "../../assets/new-lap-microsoft-surface-authorized-reseller-india.png";
 import l10 from "../../assets/new-lap-microsoft-surface-authorized-reseller-online.png";
 import l11 from "../../assets/new-lap-microsoft-surface-authorized-reseller-tamilnadu.png";
+
+import posterImg from "../../assets/microsoft-surface-authorized-reseller-tamilnadu-square-network.avif";
+import surfaceVideo from "../../assets/microsoft-surface-authorized-reseller-tamilnadu.mp4";
 import newsurface from "../../assets/new-surface-laptop-resaller-group.png";
-import mssurfacesquare  from "../../assets/ms-laptop-squarentwork.png";
+import mssurfacesquare from "../../assets/ms-laptop-squarentwork.png";
 
 const MicrosoftSurfaceLaptopChennai = () => {
-  
   const FAQItem = ({ question, answer }) => {
     const [open, setOpen] = useState(false);
 
@@ -49,9 +48,26 @@ const MicrosoftSurfaceLaptopChennai = () => {
       </div>
     );
   };
+
   return (
     <>
+      {/* ================= SEO ================= */}
       <Helmet>
+        <title>
+          Microsoft Surface Laptop in Chennai | Authorized Reseller – Square Network
+        </title>
+
+        <meta
+          name="description"
+          content="Buy Microsoft Surface Laptop in Chennai from authorized reseller Square Network Solutions. Enterprise sales, bulk pricing, deployment and support."
+        />
+
+        <link
+          rel="canonical"
+          href="https://www.squarenet.in/microsoft-surface-laptop-chennai"
+        />
+
+        {/* Breadcrumb Schema */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
@@ -72,27 +88,12 @@ const MicrosoftSurfaceLaptopChennai = () => {
               {
                 "@type": "ListItem",
                 position: 3,
-                name: "Microsoft Surface Authorized Reseller in India",
-                item: "https://www.squarenet.in/microsoft-surface-authorized-reseller-india",
+                name: "Microsoft Surface Laptop in Chennai",
+                item: "https://www.squarenet.in/microsoft-surface-laptop-chennai",
               },
             ],
           })}
         </script>
-
-        <title>
-          Microsoft Surface Authorized Reseller in Chennai| Square Network
-          Solutions
-        </title>
-
-        <meta
-          name="description"
-          content="Square Network Solutions Pvt Ltd is an authorized Microsoft Surface reseller in Chennaioffering Surface laptops, Surface Pro, Surface Hub, enterprise deployment and support."
-        />
-
-        <link
-          rel="canonical"
-          href="https://www.squarenet.in/microsoft-surface-authorized-reseller-india"
-        />
 
         {/* FAQ Schema */}
         <script type="application/ld+json">
@@ -105,23 +106,23 @@ const MicrosoftSurfaceLaptopChennai = () => {
                 name: "Is Square Network Solutions an authorized Microsoft Surface reseller?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Yes. Square Network Solutions Pvt Ltd is officially listed on Microsoft’s website as an authorized Microsoft Surface Devices reseller in India.",
+                  text: "Yes. Square Network Solutions Pvt Ltd is officially listed as an authorized Microsoft Surface Devices reseller in India.",
                 },
               },
               {
                 "@type": "Question",
-                name: "Do you provide Microsoft Surface Hub solutions?",
+                name: "Do you support bulk enterprise Microsoft Surface orders?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Yes. We provide Microsoft Surface Hub supply, installation, configuration, and meeting room integration services.",
+                  text: "Yes. We specialize in bulk procurement, enterprise deployment, and lifecycle support.",
                 },
               },
               {
                 "@type": "Question",
-                name: "Do you support bulk and enterprise Microsoft Surface orders?",
+                name: "Which locations do you serve?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Yes. We specialize in bulk procurement, enterprise deployment, device imaging, and lifecycle support for Microsoft Surface devices.",
+                  text: "We serve Chennai, Bangalore, Hyderabad, Coimbatore, Kochi, Trivandrum, and other major cities in India.",
                 },
               },
             ],
@@ -129,23 +130,7 @@ const MicrosoftSurfaceLaptopChennai = () => {
         </script>
       </Helmet>
 
-      <Helmet>
-        <title>
-          Microsoft Surface Authorized Reseller in Chennai| Square Network
-          Solutions
-        </title>
-
-        <meta
-          name="description"
-          content="Square Network Solutions Pvt Ltd is an authorized Microsoft Surface reseller in Chennaioffering Surface laptops, Surface Pro, Surface Hub, enterprise deployment and support."
-        />
-
-        <link
-          rel="canonical"
-          href="https://www.squarenet.in/microsoft-surface-authorized-reseller-india"
-        />
-      </Helmet>
-
+      {/* ================= HERO VIDEO ================= */}
       <div>
         <video
           className="plp-hero-media"
@@ -153,548 +138,119 @@ const MicrosoftSurfaceLaptopChennai = () => {
           muted
           loop
           playsInline
-          aria-label="Microsoft Surface Authorized Reseller Reseller Chennai"
-          title="Microsoft Surface Authorized Reseller Chennai"
+          preload="metadata"
+          aria-label="Microsoft Surface Laptop Authorized Reseller Chennai"
+          title="Microsoft Surface Laptop for Business in Chennai"
           poster={posterImg}
         >
           <source src={surfaceVideo} type="video/mp4" />
         </video>
       </div>
+
+      {/* ================= CONTENT ================= */}
       <section className="container">
         <div className="row">
-          <div
-            className="col-md-6"
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              justifyContent: "center",
-            }}
-          >
-            {/* <h1 >Microsoft Surface Authorized Reseller in India</h1> */}
-            <h1>Microsoft Surface Laptop in Chennai</h1>
+          <div className="col-md-6 d-flex flex-column justify-content-center">
+            <h1>Microsoft Surface Laptop for Business in Chennai</h1>
 
             <p>
-              Square Network Solutions Pvt Ltd is an officially authorized
-              Microsoft Surface Devices Reseller, recognized and listed on
-              Microsoft’s global partner directory in India.
+              Square Network Solutions Pvt Ltd is an officially authorized Microsoft
+              Surface Devices reseller, delivering enterprise-grade Surface laptops
+              across Chennai.
             </p>
 
             <p>
-              We provide genuine Microsoft Surface devices for enterprises,
-              educational institutions, and government organizations, including
-              consultation, bulk procurement, deployment, and post-sales
-              support.
+              We support IT companies, cloud teams, enterprises, educational
+              institutions, and government organizations with bulk procurement,
+              deployment, and post-sales support.
             </p>
           </div>
 
           <div className="col-md-6">
             <img
-              className=""
               src={resale}
-              alt="Microsoft Surface Authorized Reseller in India"
+              alt="Microsoft Surface Laptop authorized reseller in Chennai"
             />
           </div>
         </div>
 
+        {/* ================= PRODUCTS ================= */}
         <div className="row">
-          <div className="col-md-3 col-sm-6">
-            <div className="card-wrapper">
-              <div className="card-box">
-                <div className="card">
-                  <div className="overlay">
-                    <div className="profile-img">
-                      <img
-                        className=""
-                        src={l1}
-                        alt="Microsoft Surface Authorized Reseller in India"
-                      />
-                    </div>
+          {[l1, l2, l3, l4, l5, l6, l7, l8, l9, l10, l11].map((img, index) => (
+            <div key={index} className="col-md-3 col-sm-6">
+              <div className="card-wrapper">
+                <div className="card-box">
+                  <div className="card">
+                    <div className="overlay">
+                      <div className="profile-img">
+                        <img
+                          src={img}
+                          alt="Microsoft Surface Laptop for enterprise use in Chennai"
+                        />
+                      </div>
 
-                    <div className="card-body">
-                      <h2>Microsoft Surface</h2>
-                      <p>Laptop ZPX 00048</p>
-                    </div>
-                    {/* 
-                  <div className="social-icon">
-                    <span><i className="fa-brands fa-facebook" /></span>
-                    <span><i className="fa-brands fa-whatsapp" /></span>
-                    <span><i className="fa-brands fa-linkedin" /></span>
-                    <span><i className="fa-brands fa-instagram" /></span>
-                  </div> */}
+                      <div className="card-body">
+                        <h2>Microsoft Surface</h2>
+                        <p>Enterprise Business Model</p>
+                      </div>
 
-                    <div className="button-box">
-  <a href="tel:+919840987432" className="btn-wrap">
-     Call Now
-  </a>
-</div>
+                      <div className="button-box">
+                        <a href="tel:+919840987432" className="btn-wrap">
+                          Call Now
+                        </a>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
+          ))}
+        </div>
 
-          <div className="col-md-3 col-sm-6">
-            <div className="card-wrapper">
-              <div className="card-box">
-                <div className="card">
-                  <div className="overlay">
-                    <div className="profile-img">
-                      <img
-                        className=""
-                        src={l2}
-                        alt="Microsoft Surface Authorized Reseller in India"
-                      />
-                    </div>
-
-                    <div className="card-body">
-                      <h2>Microsoft Surface</h2>
-                      <p>Laptop 7 - EP2 21101</p>
-                    </div>
-                    {/* 
-                  <div className="social-icon">
-                    <span><i className="fa-brands fa-facebook" /></span>
-                    <span><i className="fa-brands fa-whatsapp" /></span>
-                    <span><i className="fa-brands fa-linkedin" /></span>
-                    <span><i className="fa-brands fa-instagram" /></span>
-                  </div> */}
-
-                    <div className="button-box">
-  <a href="tel:+919840987432" className="btn-wrap">
-     Call Now
-  </a>
-</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-md-3 col-sm-6">
-            <div className="card-wrapper">
-              <div className="card-box">
-                <div className="card">
-                  <div className="overlay">
-                    <div className="profile-img">
-                      <img
-                        className=""
-                        src={l3}
-                        alt="Microsoft Surface Authorized Reseller in India"
-                      />
-                    </div>
-
-                    <div className="card-body">
-                      <h2>Microsoft Surface</h2>
-                      <p>Pro 12 - EP2 41579</p>
-                    </div>
-                    {/* 
-                  <div className="social-icon">
-                    <span><i className="fa-brands fa-facebook" /></span>
-                    <span><i className="fa-brands fa-whatsapp" /></span>
-                    <span><i className="fa-brands fa-linkedin" /></span>
-                    <span><i className="fa-brands fa-instagram" /></span>
-                  </div> */}
-
-                   <div className="button-box">
-  <a href="tel:+919840987432" className="btn-wrap">
-     Call Now
-  </a>
-</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-md-3 col-sm-6">
-            <div className="card-wrapper">
-              <div className="card-box">
-                <div className="card">
-                  <div className="overlay">
-                    <div className="profile-img">
-                      <img
-                        className=""
-                        src={l4}
-                        alt="Microsoft Surface Authorized Reseller in India"
-                      />
-                    </div>
-
-                    <div className="card-body">
-                      <h2>Microsoft Surface</h2>
-                      <p>Pro 12 - EP2 27213</p>
-                    </div>
-                    {/* 
-                  <div className="social-icon">
-                    <span><i className="fa-brands fa-facebook" /></span>
-                    <span><i className="fa-brands fa-whatsapp" /></span>
-                    <span><i className="fa-brands fa-linkedin" /></span>
-                    <span><i className="fa-brands fa-instagram" /></span>
-                  </div> */}
-
-                   <div className="button-box">
-  <a href="tel:+919840987432" className="btn-wrap">
-     Call Now
-  </a>
-</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-md-3 col-sm-6">
-            <div className="card-wrapper">
-              <div className="card-box">
-                <div className="card">
-                  <div className="overlay">
-                    <div className="profile-img">
-                      <img
-                        className=""
-                        src={l5}
-                        alt="Microsoft Surface Authorized Reseller in India"
-                      />
-                    </div>
-
-                    <div className="card-body">
-                      <h2>Microsoft Surface</h2>
-                      <p>Laptop 7 - EP2 22911 </p>
-                    </div>
-                    {/* 
-                  <div className="social-icon">
-                    <span><i className="fa-brands fa-facebook" /></span>
-                    <span><i className="fa-brands fa-whatsapp" /></span>
-                    <span><i className="fa-brands fa-linkedin" /></span>
-                    <span><i className="fa-brands fa-instagram" /></span>
-                  </div> */}
-
-                    <div className="button-box">
-  <a href="tel:+919840987432" className="btn-wrap">
-     Call Now
-  </a>
-</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-md-3 col-sm-6">
-            <div className="card-wrapper">
-              <div className="card-box">
-                <div className="card">
-                  <div className="overlay">
-                    <div className="profile-img">
-                      <img
-                        className=""
-                        src={l6}
-                        alt="Microsoft Surface Authorized Reseller in India"
-                      />
-                    </div>
-
-                    <div className="card-body">
-                      <h2>Microsoft Surface</h2>
-                      <p>Pro 7 - EP2 21101</p>
-                    </div>
-                    {/* 
-                  <div className="social-icon">
-                    <span><i className="fa-brands fa-facebook" /></span>
-                    <span><i className="fa-brands fa-whatsapp" /></span>
-                    <span><i className="fa-brands fa-linkedin" /></span>
-                    <span><i className="fa-brands fa-instagram" /></span>
-                  </div> */}
-
-                    <div className="button-box">
-  <a href="tel:+919840987432" className="btn-wrap">
-     Call Now
-  </a>
-</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-3 col-sm-6">
-            <div className="card-wrapper">
-              <div className="card-box">
-                <div className="card">
-                  <div className="overlay">
-                    <div className="profile-img">
-                      <img
-                        className=""
-                        src={l7}
-                        alt="Microsoft Surface Authorized Reseller in India"
-                      />
-                    </div>
-
-                    <div className="card-body">
-                      <h2>Microsoft Surface</h2>
-                      <p>Pro 10 - ZDW 00032</p>
-                    </div>
-                    {/* 
-                  <div className="social-icon">
-                    <span><i className="fa-brands fa-facebook" /></span>
-                    <span><i className="fa-brands fa-whatsapp" /></span>
-                    <span><i className="fa-brands fa-linkedin" /></span>
-                    <span><i className="fa-brands fa-instagram" /></span>
-                  </div> */}
-
-                    <div className="button-box">
-  <a href="tel:+919840987432" className="btn-wrap">
-     Call Now
-  </a>
-</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-3 col-sm-6">
-            <div className="card-wrapper">
-              <div className="card-box">
-                <div className="card">
-                  <div className="overlay">
-                    <div className="profile-img">
-                      <img
-                        className=""
-                        src={l8}
-                        alt="Microsoft Surface Authorized Reseller in India"
-                      />
-                    </div>
-
-                    <div className="card-body">
-                      <h2>Microsoft Surface</h2>
-                      <p>Laptop ZLQ 00048</p>
-                    </div>
-                    {/* 
-                  <div className="social-icon">
-                    <span><i className="fa-brands fa-facebook" /></span>
-                    <span><i className="fa-brands fa-whatsapp" /></span>
-                    <span><i className="fa-brands fa-linkedin" /></span>
-                    <span><i className="fa-brands fa-instagram" /></span>
-                  </div> */}
-
-                   <div className="button-box">
-  <a href="tel:+919840987432" className="btn-wrap">
-     Call Now
-  </a>
-</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-3 col-sm-6">
-            <div className="card-wrapper">
-              <div className="card-box">
-                <div className="card">
-                  <div className="overlay">
-                    <div className="profile-img">
-                      <img
-                        className=""
-                        src={l9}
-                        alt="Microsoft Surface Authorized Reseller in India"
-                      />
-                    </div>
-
-                    <div className="card-body">
-                      <h2>Microsoft Surface</h2>
-                      <p>Laptop ZLU 00048</p>
-                    </div>
-                    {/* 
-                  <div className="social-icon">
-                    <span><i className="fa-brands fa-facebook" /></span>
-                    <span><i className="fa-brands fa-whatsapp" /></span>
-                    <span><i className="fa-brands fa-linkedin" /></span>
-                    <span><i className="fa-brands fa-instagram" /></span>
-                  </div> */}
-
-                    <div className="button-box">
-  <a href="tel:+919840987432" className="btn-wrap">
-     Call Now
-  </a>
-</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-3 col-sm-6">
-            <div className="card-wrapper">
-              <div className="card-box">
-                <div className="card">
-                  <div className="overlay">
-                    <div className="profile-img">
-                      <img
-                        className=""
-                        src={l8}
-                        alt="Microsoft Surface Authorized Reseller in India"
-                      />
-                    </div>
-
-                    <div className="card-body">
-                      <h2>Microsoft Surface</h2>
-                      <p>Pro 12 - EP2 27196</p>
-                    </div>
-                    {/* 
-                  <div className="social-icon">
-                    <span><i className="fa-brands fa-facebook" /></span>
-                    <span><i className="fa-brands fa-whatsapp" /></span>
-                    <span><i className="fa-brands fa-linkedin" /></span>
-                    <span><i className="fa-brands fa-instagram" /></span>
-                  </div> */}
-
-                    <div className="button-box">
-  <a href="tel:+919840987432" className="btn-wrap">
-     Call Now
-  </a>
-</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-3 col-sm-6">
-            <div className="card-wrapper">
-              <div className="card-box">
-                <div className="card">
-                  <div className="overlay">
-                    <div className="profile-img">
-                      <img
-                        className=""
-                        src={l10}
-                        alt="Microsoft Surface Authorized Reseller in India"
-                      />
-                    </div>
-
-                    <div className="card-body">
-                      <h2>Microsoft Surface</h2>
-                      <p>Pro 9 - QIA 00031</p>
-                    </div>
-                    {/* 
-                  <div className="social-icon">
-                    <span><i className="fa-brands fa-facebook" /></span>
-                    <span><i className="fa-brands fa-whatsapp" /></span>
-                    <span><i className="fa-brands fa-linkedin" /></span>
-                    <span><i className="fa-brands fa-instagram" /></span>
-                  </div> */}
-
-                    <div className="button-box">
-  <a href="tel:+919840987432" className="btn-wrap">
-     Call Now
-  </a>
-</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-3 col-sm-6">
-            <div className="card-wrapper">
-              <div className="card-box">
-                <div className="card">
-                  <div className="overlay">
-                    <div className="profile-img">
-                      <img
-                        className=""
-                        src={l11}
-                        alt="Microsoft Surface Authorized Reseller in India"
-                      />
-                    </div>
-
-                    <div className="card-body">
-                      <h2>Microsoft Surface</h2>
-                      <p>Laptop ZLQ 00048</p>
-                    </div>
-                    {/* 
-                  <div className="social-icon">
-                    <span><i className="fa-brands fa-facebook" /></span>
-                    <span><i className="fa-brands fa-whatsapp" /></span>
-                    <span><i className="fa-brands fa-linkedin" /></span>
-                    <span><i className="fa-brands fa-instagram" /></span>
-                  </div> */}
-
-                    <div className="button-box">
-  <a href="tel:+919840987432" className="btn-wrap">
-     Call Now
-  </a>
-</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-<div className="row">
- <div className="col-md-6">
- <img className=""style={{borderRadius:"20px",}} src={newsurface} alt="Microsoft Surface Authorized Reseller in India" />
-
-</div>
-          <div className="col-md-6"style={{display:"flex",flexDirection:"column",justifyContent:"center"}}>
-              <h2>Microsoft Surface Devices for Business & Enterprise</h2>
-            <ul>
-              <li>Microsoft Surface Pro for business professionals</li>
-              <li>Microsoft Surface Laptop for enterprise users</li>
-              <li>Microsoft Surface Hub for meeting rooms & collaboration</li>
-              <li>Bulk Surface device procurement</li>
-              <li>Surface deployment, imaging & Intune integration</li>
-          </ul>
-          
-          </div>
-</div>
-          
-          <div className="row">
-          
-          <div className="col-md-6" style={{display:"flex",flexDirection:"column",justifyContent:"center"}}>
-           <h2>Why Choose Square Network Solutions</h2>
-            <ul>
-              <li><b>Official Microsoft authorized partner</b></li>
-              <li>Enterprise IT & infrastructure expertise</li>
-              <li>End-to-end Surface deployment & lifecycle support</li>
-              <li>Trusted by enterprises across South India</li>
-          </ul>
-          </div>
-          
+        {/* ================= BUSINESS SECTION ================= */}
+        <div className="row">
           <div className="col-md-6">
-           <img className=""style={{borderRadius:"20px",}} src={mssurfacesquare} alt="Microsoft Surface Authorized Reseller in India" />
-          
+            <img
+              src={newsurface}
+              style={{ borderRadius: "20px" }}
+              alt="Microsoft Surface Laptop devices for enterprise customers"
+            />
           </div>
-          </div>
-          
-          <div className="row" style={{ margin: "30px 0" }}>
-           
-           <h2 style={{ fontSize: "24px", marginBottom: "12px" }}>
-                    Service Locations
-                  </h2>
-          
-                  <p style={{ marginBottom: "24px" }}>
-                    We supply and support Microsoft Surface devices across{" "}
-                    <strong>
-          
-                      Chennai, Bangalore, Hyderabad, Coimbatore, Kochi, Trivandrum
-                    </strong>{" "}
-                    and other major cities in India.
-                  </p>
-          
-                  <h2 style={{ fontSize: "24px", marginBottom: "12px" }}>
-                    Microsoft Authorization
-                  </h2>
-          
-                  <p style={{ marginBottom: "24px" }}>
-                    Verify our Microsoft authorization here:{" "}
-                    <a
-                      href="https://www.microsoft.com/en-in/surface/business/where-to-buy-microsoft-surface"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      style={{ color: "#0067b8", textDecoration: "underline" }}
-                    >
-                      Microsoft Surface Authorized Reseller – Square Network Solutions
-                    </a>
-                  </p>
-          
+
+          <div className="col-md-6 d-flex flex-column justify-content-center">
+            <h2>Microsoft Surface Devices for Business & Enterprise</h2>
+            <ul>
+              <li>Surface Laptop for enterprise users</li>
+              <li>Surface Pro for business professionals</li>
+              <li>Surface Hub for meeting rooms</li>
+              <li>Bulk procurement & deployment</li>
+              <li>Intune & Autopilot integration</li>
+            </ul>
           </div>
         </div>
 
+        <div className="row">
+          <div className="col-md-6 d-flex flex-column justify-content-center">
+            <h2>Why Choose Square Network Solutions</h2>
+            <ul>
+              <li>Official Microsoft authorized partner</li>
+              <li>Enterprise IT infrastructure expertise</li>
+              <li>End-to-end Surface lifecycle support</li>
+              <li>Trusted by enterprises across South India</li>
+            </ul>
+          </div>
+
+          <div className="col-md-6">
+            <img
+              src={mssurfacesquare}
+              style={{ borderRadius: "20px" }}
+              alt="Square Network Solutions Microsoft Surface enterprise partner"
+            />
+          </div>
+        </div>
       </section>
 
+      {/* ================= FAQ ================= */}
       <section className="container">
         <h2 style={{ textAlign: "center", marginBottom: "30px" }}>
           Frequently Asked Questions
@@ -702,84 +258,26 @@ const MicrosoftSurfaceLaptopChennai = () => {
 
         <FAQItem
           question="Is Square Network Solutions an authorized Microsoft Surface reseller?"
-          answer="Yes. Square Network Solutions Pvt Ltd is officially listed on Microsoft’s website as an authorized Microsoft Surface Devices reseller in India."
+          answer="Yes. We are officially listed as an authorized Microsoft Surface Devices reseller in India."
         />
 
         <FAQItem
-          question="Do you provide Microsoft Surface Hub solutions?"
-          answer="Yes. We provide Microsoft Surface Hub supply, installation, configuration, and meeting room integration services."
+          question="Do you support bulk Microsoft Surface Laptop orders?"
+          answer="Yes. We specialize in enterprise and bulk procurement across India."
         />
 
         <FAQItem
-          question="Do you support bulk enterprise Microsoft Surface orders?"
-          answer="Yes. We specialize in bulk procurement, enterprise deployment, device imaging, and lifecycle support."
+          question="Which cities do you serve?"
+          answer="Chennai, Bangalore, Hyderabad, Coimbatore, Kochi, Trivandrum and more."
         />
 
         <FAQItem
-          question="Which locations do you serve?"
-          answer="We serve Chennai, Bangalore, Hyderabad, Coimbatore, Kochi, Trivandrum, and other major cities across India."
-        />
-
-        <FAQItem
-          question="How can I contact Square Network Solutions?"
-          answer="You can contact us via phone at +91 98409 87432 or email sales@squarenet.in."
-        />
-        <FAQItem
-          question="Do you provide Microsoft Surface devices for government projects?"
-          answer="Yes. We supply Microsoft Surface devices for government departments, public sector organizations, and PSU projects with complete compliance and documentation."
-        />
-
-        <FAQItem
-          question="Can you help with Microsoft Surface device deployment and configuration?"
-          answer="Yes. Our team provides complete Surface device deployment, OS imaging, Intune integration, security policies, and enterprise configuration support."
-        />
-
-        <FAQItem
-          question="Do you offer after-sales support and warranty assistance?"
-          answer="Yes. We provide post-sales support, warranty coordination, and service assistance for all Microsoft Surface devices purchased through us."
-        />
-
-        <FAQItem
-          question="Do you supply Microsoft Surface devices in bulk quantity?"
-          answer="Yes. We specialize in bulk and enterprise procurement of Microsoft Surface laptops, Surface Pro, and Surface Hub devices across India."
-        />
-
-        <FAQItem
-          question="Can educational institutions purchase Microsoft Surface devices from you?"
-          answer="Yes. We work with schools, colleges, universities, and training institutes to supply Microsoft Surface devices at institutional pricing."
-        />
-
-        <FAQItem
-          question="Do you provide Microsoft Surface Hub installation for meeting rooms?"
-          answer="Yes. We offer Surface Hub installation, room planning, AV integration, and collaboration setup for conference rooms and boardrooms."
-        />
-
-        <FAQItem
-          question="What Microsoft Surface models do you supply?"
-          answer="We supply Surface Pro, Surface Laptop, Surface Laptop Studio, Surface Go, and Surface Hub models for business and enterprise use."
-        />
-
-        <FAQItem
-          question="How quickly can you deliver Microsoft Surface devices?"
-          answer="Delivery timelines depend on model availability and order quantity. Enterprise orders are usually fulfilled within a few business days."
-        />
-
-        <FAQItem
-          question="Do you provide onsite support?"
-          answer="Yes. We provide onsite support and implementation services across South Chennai including Chennai, Bangalore, and Hyderabad."
-        />
-
-        <FAQItem
-          question="How can I request a quotation?"
-          answer="You can submit the contact form on this page or directly call us at +91 98409 87432 to receive a customized quotation."
+          question="How can I get a quotation?"
+          answer="Call us directly at +91 98409 87432 to receive a customized quotation."
         />
       </section>
     </>
   );
 };
 
- 
-
- 
-
-export default MicrosoftSurfaceLaptopChennai
+export default MicrosoftSurfaceLaptopChennai;

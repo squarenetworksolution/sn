@@ -27,6 +27,7 @@ import ScrollFade from "./components/ScrollFade";
 import MicrosoftSurfaceReseller from "./components/Pages/MicrosoftSurfaceReseller";
 import MicrosoftSurfacelaptop from "./components/Pages/MicrosoftSurfacelaptop";
 import MicrosoftSurfaceLaptopChennai from "./components/Pages/MicrosoftSurfaceLaptopChennai";
+import BuySurfaceLaptop from "./components/Pages/BuySurfaceLaptop";
 
 
 // import { Product } from "./components/Pages/Product";
@@ -36,34 +37,36 @@ import MicrosoftSurfaceLaptopChennai from "./components/Pages/MicrosoftSurfaceLa
 
 function App() {
 
-  return (
-    <>
-      <Router>
+return (
+<>
+<Router>
 
-        <NavBar/>
-        
-        <div className="pages">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/home" element={<Home />} />
-            {/* <Route path="/animation" element={<Animation/>} /> */}
-            <Route path="/about" element={<About />}/>
-            <Route path="/blog" element={<Blog />}/>
-            <Route path="/contact" element={<Contact/>}/>
-            <Route path="/product" element={<Product/>} />
-            <Route path="/testpage" element={<Testpage/>} />
-            <Route path="/cyber-security-solutions" element={<Cybersecuritysolutions />}/>
-            <Route path="/networking-solutions" element={<Networkingsolutions />}/>
-            <Route path="/it-managed-services" element={<Itmanagedservices/>} />
-            {/* <Route path="/pc-and-enterprise-solution" element={< Pcandenterprisesolution/>}/> */}
-            <Route path="/success-stories" element={<Successstories />}/>
-            <Route component={<Errorpage/>}/>
-            <Route path="/product-switches" element={<Productswitches/>} />
-             {/* <Route path="" element={<Productrouters/>} /> */}
-             <Route path="/" element={<Productservers/>} />
-             <Route path="/product-cable" element={<Productcables/>} />           
-            <Route path="/data-center-solution" element={<Datacentersolution/>} />
-            <Route path="microsoft-surface-laptop" element={<MicrosoftSurfacelaptop/>}/>
+<NavBar/>
+
+<div className="pages">
+<Routes>
+<Route path="/" element={<Home />} />
+<Route path="/home" element={<Home />} />
+{/* <Route path="/animation" element={<Animation/>} /> */}
+<Route path="/about" element={<About />}/>
+<Route path="/blog" element={<Blog />}/>
+<Route path="/contact" element={<Contact/>}/>
+<Route path="/product" element={<Product/>} />
+<Route path="/testpage" element={<Testpage/>} />
+<Route path="/cyber-security-solutions" element={<Cybersecuritysolutions />}/>
+<Route path="/networking-solutions" element={<Networkingsolutions />}/>
+<Route path="/it-managed-services" element={<Itmanagedservices/>} />
+{/* <Route path="/pc-and-enterprise-solution" element={< Pcandenterprisesolution/>}/> */}
+<Route path="/success-stories" element={<Successstories />}/>
+<Route component={<Errorpage/>}/>
+<Route path="/product-switches" element={<Productswitches/>} />
+{/* <Route path="" element={<Productrouters/>} /> */}
+<Route path="/" element={<Productservers/>} />
+<Route path="/product-cable" element={<Productcables/>} />           
+<Route path="/data-center-solution" element={<Datacentersolution/>} />
+
+<Route path="/buy-surface-laptop" element={<BuySurfaceLaptop/>}/>
+<Route path="/microsoft-surface-laptop" element={<MicrosoftSurfacelaptop/>}/>
 <Route path="/our-teams" element={<OurTeams/>} />
 <Route path="/scroll-fade" element={<ScrollFade/>} />
 <Route path="microsoft-surface-authorized-reseller" element={<MicrosoftSurfaceReseller/>} />
@@ -82,6 +85,7 @@ function App() {
 <Route path="microsoft-surface-authorized-reseller-adyar" element={<MicrosoftSurfaceReseller/>} />
 <Route path="microsoft-surface-authorized-reseller-besantnagar" element={<MicrosoftSurfaceReseller/>} />
 <Route path="microsoft-surface-authorized-reseller-annanagar" element={<MicrosoftSurfaceReseller/>} />
+<Route path="microsoft-surface-authorized-reseller-chennai" element={<MicrosoftSurfaceReseller/>} />
 <Route path="microsoft-surface-authorized-reseller-chennaicentral" element={<MicrosoftSurfaceReseller/>} />
 <Route path="microsoft-surface-authorized-reseller-egmore" element={<MicrosoftSurfaceReseller/>} />
 <Route path="microsoft-surface-authorized-reseller-koyambedu" element={<MicrosoftSurfaceReseller/>} />
@@ -103,16 +107,16 @@ function App() {
 <Route path="microsoft-surface-authorized-reseller-washermanpet" element={<MicrosoftSurfaceReseller/>} />
 <Route path="microsoft-surface-authorized-reseller-tondiarpet" element={<MicrosoftSurfaceReseller/>} />
 <Route path="microsoft-surface-chennai" element={<MicrosoftSurfaceReseller/>} />
-         
-          </Routes>
 
-        </div>
+</Routes>
 
-        <Footer />
+</div>
 
-      </Router>
-    </>
-  );
+<Footer />
+
+</Router>
+</>
+);
 }
 
 export default App;
