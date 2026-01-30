@@ -3,9 +3,8 @@ import "../../components/css/product.css";
 
 import $ from 'jquery';
 
-
 const Animation = () => {
-
+// ani
   $(document).ready(function(){ 
 
     //side panel for milestones
