@@ -127,6 +127,55 @@ const MicrosoftSurfaceReseller = () => {
             ],
           })}
         </script>
+
+         {/* Organization Schema */}
+  <script type="application/ld+json">
+    {JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Square Network Solutions Pvt Ltd",
+      "url": "https://www.squarenet.in/",
+      "logo": "https://www.squarenet.in/logo.png",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+91 98409 87432",
+        "contactType": "sales",
+        "areaServed": "IN",
+        "availableLanguage": ["English"]
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/square-network-solutions"
+      ]
+    })}
+  </script>
+
+ {/* LocalBusiness Schema */}
+  <script type="application/ld+json">
+    {JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Square Network Solutions",
+      "image": "https://www.squarenet.in/logo.png",
+      "url": "https://www.squarenet.in/",
+      "telephone": "+91 98409 87432",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Chennai",
+        "addressRegion": "Tamil Nadu",
+        "postalCode": "600032",
+        "addressCountry": "IN"
+      },
+      "areaServed": [
+        "Chennai",
+        "Bangalore",
+        "Hyderabad",
+        "Coimbatore",
+        "Kochi",
+        "Trivandrum"
+      ]
+    })}
+  </script>
+
       </Helmet>
 
       <Helmet>
