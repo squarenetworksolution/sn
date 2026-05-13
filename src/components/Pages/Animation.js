@@ -17,12 +17,16 @@ const Animation = () => {
       var secondaryHead = $('nav'),
       
       secondaryHeadTopPosition = secondaryHead.offset().top;
+
       $(window).on('scroll', function(){
+
         if($(window).scrollTop() > secondaryHeadTopPosition ) {
           secondaryHead.addClass("fixed-nav");
           $(".filter-button").addClass("fixed-button");
           $(".panel").addClass("fixed-panel");
+          
         } 
+
         else {
           secondaryHead.removeClass('fixed-nav');
           $(".filter-button").removeClass("fixed-button");
@@ -38,10 +42,12 @@ const Animation = () => {
         $(".two").removeClass("hidden");
         $(".one").addClass("hidden");
       });
+
       $(".all").click(function(){
         $(".two").removeClass("hidden");
         $(".one").removeClass("hidden");
       });
+      
       $(".check").click(function(){
         if(!($("#one").is(":checked")) && !($("#two").is(":checked")) && !($("#three").is(":checked"))){
           $(".group1").removeClass("hidden");

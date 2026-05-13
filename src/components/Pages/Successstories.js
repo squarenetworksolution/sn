@@ -107,10 +107,8 @@ const Successstories = () => {
      <div className="timeline__event__description">
         
         <p>
-
         Building on our success, Square Network Solution received the EPSON Award again in 2012, reaffirming our expertise in providing businesses with high-quality Epson products and seamless technology solutions to enhance operational efficiency.
-          
-          </p>
+        </p>
           
       </div>
     </div>

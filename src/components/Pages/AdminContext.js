@@ -8,7 +8,9 @@ export const AdminProvider = ({ children }) => {
   
   const loginAsAdmin = (username, password) => {
     if (username === "admin" && password === "password123") {
+     
       setIsAdmin(true);
+
       localStorage.setItem("isAdmin", "true");
     }
   };

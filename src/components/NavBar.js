@@ -34,8 +34,8 @@ function NavBar() {
     setIsSubNavOpen(!isSubNavOpen);
   };
     
-  
   return (
+
     <>
     
       <nav className="navbar">
@@ -74,8 +74,7 @@ function NavBar() {
                 About
               </NavLink>
             </li>
-           
-           
+          
             <CDropdown variant="nav-item" popper={false}>
               <CDropdownToggle color="secondary">Solutions & Services</CDropdownToggle>
               <CDropdownMenu>
@@ -90,6 +89,7 @@ function NavBar() {
               </CDropdownMenu>
             </CDropdown>
 
+            
             {/* <li className="nav-item">
               <NavLink
                 exact
@@ -102,6 +102,7 @@ function NavBar() {
               </NavLink>
             </li> */}
             
+
             <li className="nav-item">
               <NavLink
                 exact
