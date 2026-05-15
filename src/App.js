@@ -109,6 +109,7 @@ return (
 <Route path="microsoft-surface-authorized-reseller-washermanpet" element={<MicrosoftSurfaceReseller/>} />
 <Route path="microsoft-surface-authorized-reseller-tondiarpet" element={<MicrosoftSurfaceReseller/>} />
 <Route path="microsoft-surface-chennai" element={<MicrosoftSurfaceReseller/>} />
+
 {/* <Route path="canon-showroom-in-housr" element={<Canon/>} /> */}
 <Route path="canon-showroom-in-housr" element={<Canon/>} />
 
