@@ -4,6 +4,7 @@ const BusinessLaptopChennai = () => {
   return (
     <div>BusinessLaptopChennai</div>
   )
+  
 }
 
 export default BusinessLaptopChennai

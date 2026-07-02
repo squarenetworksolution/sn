@@ -818,7 +818,7 @@ const BestLaptopInChennai = () => {
           />
   
           <FAQItem
-          
+
             question="How can I request a quotation?"
             answer="You can submit the contact form on this page or directly call us at +91 98409 87432 to receive a customized quotation."
           />

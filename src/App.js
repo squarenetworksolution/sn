@@ -47,6 +47,9 @@ import AsusLaptopDealerChennai from "./components/Pages/AsusLaptopDealerChennai"
 import BestLaptop from "./components/Pages/BestLaptop";
 import BestLaptopDealsChennai from "./components/Pages/BestLaptopDealsChennai";
 import BestLaptopInChennai from "./components/Pages/BestLaptopInChennai";
+import BulkLaptopPurchaseChennai from "./components/Pages/BulkLaptopPurchaseChennai";
+import BuyBestLaptop from "./components/Pages/BuyBestLaptop";
+import BuyBestLaptops from "./components/Pages/BuyBestLaptops";
 
 
 
@@ -150,6 +153,12 @@ return (
 <Route path="best-laptop" element={<BestLaptop/>} />
 <Route path="best-laptop-deals-chennai" element={<BestLaptopDealsChennai/>}/>
 <Route path="best-laptop-in-chennai"  element={<BestLaptopInChennai/>} />
+<Route path="bulk-laptop-purchase-chennai" element={<BulkLaptopPurchaseChennai/>} />
+<Route path="buy-best-laptop" element={< BuyBestLaptop/>} />
+<Route path="buy-best-laptops" element={<BuyBestLaptops/>}/>
+
+
+
 
 </Routes>
 
