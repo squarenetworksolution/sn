@@ -31,6 +31,7 @@ const Canon = () => {
     return (
       
       <div style={{ borderBottom: "1px solid #ddd", padding: "15px 0" }}>
+       
         <h3
         
           onClick={() => setOpen(!open)}
@@ -46,6 +47,7 @@ const Canon = () => {
           {question}
           
           <span style={{ fontSize: "22px" }}>{open ? "−" : "+"}</span>
+       
         </h3>
 
         {open && (

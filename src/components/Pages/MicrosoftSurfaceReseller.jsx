@@ -1,4 +1,4 @@
-// import React from "react";
+
 import React, { Fragment, useState } from "react";
 
 import { Helmet } from "react-helmet-async";
@@ -46,7 +46,7 @@ const MicrosoftSurfaceReseller = () => {
             {answer}
           </p>
         )}
-      </div>
+      </div>  
     );
   };
   return (

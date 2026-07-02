@@ -9,10 +9,9 @@ const BuySurfaceLaptop = () => {
     const [open, setOpen] = useState(false);
 
     return (
-
       <div style={{ borderBottom: "1px solid #e0e0e0", padding: "14px 0" }}>
         
-        <h3 
+         <h3 
           onClick={() => setOpen(!open)}
 
           style={{
